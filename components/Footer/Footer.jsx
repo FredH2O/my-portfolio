@@ -11,7 +11,8 @@ const Footer = () => {
           <p className="text-slate-400 text-sm max-w-md">
             A Junior Frontend Developer dedicated to building responsive and
             user-friendly websites and web applications, combining creativity
-            and technical skills to enhance the overall user experience.
+            and technical skills to enhance the overall user experience and
+            interface.
           </p>
         </div>
         <div className="flex flex-col lg:items-end space-y-7">
@@ -20,14 +21,14 @@ const Footer = () => {
           </h2>
           <div className="text-3xl flex gap-5 text-slate-400">
             <a
-              className="hover:text-rose-500"
+              className="hover:text-sky-500"
               href="https://github.com/FredH2O"
               target="_blank"
             >
               <FaGithub />
             </a>
             <a
-              className="hover:text-rose-500"
+              className="hover:text-sky-500"
               href="https://www.linkedin.com/in/fred-huertas/"
               target="_blank"
             >
@@ -41,7 +42,7 @@ const Footer = () => {
           &copy;Copyright 2025. Made by{" "}
           <a
             href="https://www.linkedin.com/in/fred-huertas/"
-            className="italic text-rose-500 hover:text-rose-400"
+            className="italic text-sky-500 hover:text-sky-400"
           >
             Fred
           </a>
