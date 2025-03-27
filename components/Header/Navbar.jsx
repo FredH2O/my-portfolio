@@ -43,12 +43,11 @@ const Navbar = () => {
         </ul>
       </div>
 
-      <div className="md:hidden">
+      <div className="md:hidden ">
         <BurgerIcon onClick={handleClick} />
-
         <ul
-          className={`absolute p-20 mt-18 h-screen space-y-5 md:hidden transition-all ease-in-out duration-150 ${
-            isMenu ? "translate-x-full" : "-translate-x-0"
+          className={`absolute p-20 mt-18 border-y space-y-5 md:hidden transition-transform ease-in-out duration-150 ${
+            isMenu ? "translate-x-0 " : "-translate-x-full"
           } space-y-1 z-10 bg-slate-900 inset-0 flex flex-col justify-center items-center`}
         >
           {Navigation.map((title) => (
