@@ -1,19 +1,24 @@
 "use client";
 import { useState } from "react";
 import BurgerIcon from "./BurgerIcon";
+import Link from "next/link";
 
 const Navigation = [
   {
     name: "Home",
-    link: "",
+    link: "/home",
+  },
+  {
+    name: "Skills",
+    link: "/skills",
   },
   {
     name: "Projects",
-    link: "",
+    link: "/projects",
   },
   {
     name: "Contact",
-    link: "",
+    link: "/contact",
   },
 ];
 
@@ -27,17 +32,17 @@ const Navbar = () => {
   return (
     <nav className="relative flex items-center justify-between px-5 py-4 text-zinc-100">
       <div>
-        <h1 className="font-bold text-2xl">&lt;Fred /&gt;</h1>
+        <h1 className="text-2xl font-bold">&lt;Fred /&gt;</h1>
       </div>
 
       <div className="">
-        <ul className="md:flex hidden space-x-6">
+        <ul className="hidden space-x-6 md:flex">
           {Navigation.map((title) => (
             <li
-              className="hover:text-sky-500 cursor-pointer transition-all duration-200"
+              className="transition-all duration-200 cursor-pointer hover:text-sky-500"
               key={title.name}
             >
-              {title.name}
+              <Link href={title.link}>{title.name}</Link>
             </li>
           ))}
         </ul>

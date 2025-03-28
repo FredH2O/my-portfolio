@@ -2,13 +2,13 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white">
-      <div className="grid lg:grid-cols-2 px-5 grid-cols-1 container m-auto py-28 gap-6">
+    <footer className="text-white bg-black">
+      <div className="container grid grid-cols-1 gap-6 px-5 m-auto lg:grid-cols-2 py-28">
         <div className="flex flex-col space-y-7">
           <h2 className="text-xl font-semibold tracking-wide">
             Frederico Huertas
           </h2>
-          <p className="text-slate-400 text-sm max-w-md">
+          <p className="max-w-md text-sm text-slate-400">
             A Junior Frontend Developer dedicated to building responsive and
             user-friendly websites and web applications, combining creativity
             and technical skills to enhance the overall user experience and
@@ -16,10 +16,10 @@ const Footer = () => {
           </p>
         </div>
         <div className="flex flex-col lg:items-end space-y-7">
-          <h2 className="uppercase font-semibold text-xl tracking-widest">
+          <h2 className="text-xl font-semibold tracking-widest uppercase">
             Socials
           </h2>
-          <div className="text-3xl flex gap-5 text-slate-400">
+          <div className="flex gap-5 text-3xl text-slate-400">
             <a
               className="hover:text-sky-500"
               href="https://github.com/FredH2O"
