@@ -6,11 +6,11 @@ import Link from "next/link";
 const Navigation = [
   {
     name: "Home",
-    link: "/home",
+    link: "/",
   },
   {
-    name: "Skills",
-    link: "/skills",
+    name: "About",
+    link: "/about",
   },
   {
     name: "Projects",
@@ -48,17 +48,15 @@ const Navbar = () => {
         </ul>
       </div>
 
-      <div className="md:hidden ">
+      <div className="md:hidden">
         <BurgerIcon onClick={handleClick} />
         <ul
-          className={`absolute p-20 mt-18 border-y space-y-5 md:hidden transition-transform ease-in-out duration-150 ${
-            isMenu ? "translate-x-0 " : "-translate-x-full"
+          className={`absolute p-20 h-[300px] mt-18 border-y space-y-5 md:hidden transition-transform ease-in-out duration-150 ${
+            isMenu ? "translate-x-0" : "-translate-x-full"
           } space-y-1 z-10 bg-slate-900 inset-0 flex flex-col justify-center items-center`}
         >
           {Navigation.map((title) => (
-            <li className="" key={title.name}>
-              {title.name}
-            </li>
+            <li key={title.name}>{title.name}</li>
           ))}
         </ul>
       </div>
