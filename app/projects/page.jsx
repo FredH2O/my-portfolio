@@ -1,12 +1,44 @@
 import FadeInSection from "@/components/animations/FadeInSection";
+import projects from "@/app/data/projects.json";
+import Image from "next/image";
 
 const Projects = () => {
   return (
     <FadeInSection>
-      <div className="relative z-20 flex-1 h-screen pt-16 border border-red-500">
-        test
+      <div className="container relative z-20 grid h-auto gap-10 p-10 m-auto pt-26 xl:grid-cols-3 lg:grid-cols-2">
+        {projects.map((project) => (
+          <div
+            key={project.title}
+            className="flex flex-col p-3 space-y-3 bg-gray-700 border rounded border-slate-500"
+          >
+            <div className="flex justify-center w-full">
+              <Image
+                src={project.image}
+                className="object-contain border rounded lg:w-full md:w-82 bg-slate-800 border-slate-600"
+                width={500}
+                height={250}
+                alt={project.title}
+              />
+            </div>
+
+            <div className="flex flex-col flex-1 p-3">
+              <h2 className="text-3xl font-bold">{project.title}</h2>
+              <p className="flex-1 py-5 text-slate-400">
+                {project.description}
+              </p>
+            </div>
+            <button className="self-end px-2 py-5 transition-all ease-in-out hover:-translate-y-1">
+              <a
+                href={project.url}
+                className="p-2 rounded bg-sky-500 hover:bg-sky-600"
+                target="_blank"
+              >
+                Check it out
+              </a>
+            </button>
+          </div>
+        ))}
       </div>
-      <div>test</div>
     </FadeInSection>
   );
 };

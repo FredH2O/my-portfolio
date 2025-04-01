@@ -1,0 +1,80 @@
+[
+  {
+    "title": "Moonway Travels",
+    "description": "A single-page travel application showcasing hotels with information fetched dynamically. Built with React, Tailwind CSS, and Axios.",
+    "url": "https://fredh2o.github.io/moonway-travel/",
+    "image": "/projectsImages/moonway-travel-image.png"
+  },
+  {
+    "title": "Café Bianco",
+    "description": "A stylish landing page for a café, highlighting its menu and ambiance with a clean, modern design.",
+    "url": "https://fredh2o.github.io/cafe-bianco",
+    "image": "/projectsImages/cafe-bianco-image.png"
+  },
+  {
+    "title": "Flex Trap Clothing",
+    "description": "An e-commerce demo for a clothing brand, featuring a trendy design and user-friendly layout.",
+    "url": "https://fredh2o.github.io/Flex-Trap-Clothing.co/",
+    "image": "/projectsImages/flex-trap-clothing.png"
+  },
+  {
+    "title": "Plant Care",
+    "description": "A web app for houseplant enthusiasts, providing tips on care, origins, and temperature requirements for various plants.",
+    "url": "https://fredh2o.github.io/plant-care/",
+    "image": "/projectsImages/plant-care-guide.png"
+  },
+  {
+    "title": "Gym Website",
+    "description": "This project showcases a responsive gym website with key sections such as facilities, membership plans, and programs. Built with HTML, CSS, JavaScript, and Bootstrap, it demonstrates a clean design and practical application of web development skills.",
+    "url": "https://fredh2o.github.io/Gym-Website/",
+    "image": "/projectsImages/gym-website.png"
+  },
+  {
+    "title": "Pence's Bakery",
+    "description": "A React app showcasing bakery items with dynamic features like add-to-cart, responsive design, and detail modals. Built with React and Bootstrap, it highlights skills in state management and modern frontend development.",
+    "url": "https://fredh2o.github.io/Bakery-Shop/",
+    "image": "/projectsImages/bakery.png"
+  },
+  {
+    "title": "Weather App",
+    "description": "Of course, what is a portfolio without a responsive web app displaying real-time weather for any location? Built with HTML, CSS, and JavaScript, it features location search, dynamic updates, and animated weather icons, showcasing skills in API integration and clean, responsive design.",
+    "url": "https://fredh2o.github.io/Weather-App/",
+    "image": "/projectsImages/weather.png"
+  },
+  {
+    "title": "Dog Breed Info",
+    "description": "Random Dog Breed Info is a React-based app that retrieves and displays information about various dog breeds using a public API, featuring responsive design and smooth animations.",
+    "url": "https://fredh2o.github.io/Random-Dog-Breed-Info/",
+    "image": "/projectsImages/dog-info.png"
+  },
+  {
+    "title": "Joke-Generator",
+    "description": "Joke Generator is a fun, interactive web app built with HTML, CSS, and JavaScript that generates random jokes with a click, providing users with a humorous break. It's easily customizable and great for learning front-end development.",
+    "url": "https://fredh2o.github.io/Joke-Generator/",
+    "image": "/projectsImages/joke-generator.png"
+  },
+  {
+    "title": "Rock, Paper, Scissors!",
+    "description": "Rock Paper Scissors is a web-based game where you play against a computer opponent. Developed with HTML, CSS, and JavaScript, it features score tracking and a responsive design for desktop and mobile.",
+    "url": "https://fredh2o.github.io/Rock-Paper-Scissor-Game/",
+    "image": "/projectsImages/rock-paper-scissors.png"
+  },
+  {
+    "title": "JavaScript Quiz",
+    "description": "This is a simple quiz game built with HTML, CSS, and JavaScript. The game features multiple-choice questions and keeps track of the player's score. It also utilizes lodash for utility functions and Bootstrap Icons for a polished interface.",
+    "url": "https://fredh2o.github.io/Javascript-Quiz/",
+    "image": "/projectsImages/javascript-quiz.png"
+  },
+  {
+    "title": "To-Do List",
+    "description": "The To-Do List Web App helps manage tasks with features to add, edit, delete, and mark as complete. Built with JavaScript, HTML, and CSS, it’s responsive and uses Confetti.js to celebrate completing all tasks.",
+    "url": "https://fredh2o.github.io/To-Do-List/",
+    "image": "/projectsImages/todo-list.png"
+  },
+  {
+    "title": "Random Food Recipe",
+    "description": "Random Food Recipe Generator is a fun and interactive web app that provides users with random recipes at the click of a button. Built with HTML, CSS, and JavaScript, it fetches delicious recipes from an API and displays key details such as ingredients and projectsImages. Perfect for meal inspiration and exploring new dishes!",
+    "url": "https://fredh2o.github.io/food-recipe/",
+    "image": "/projectsImages/food-recipe.png"
+  }
+]
