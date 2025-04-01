@@ -56,7 +56,9 @@ const Navbar = () => {
           } space-y-1 z-10 bg-slate-900 inset-0 flex flex-col justify-center items-center`}
         >
           {Navigation.map((title) => (
-            <li key={title.name}>{title.name}</li>
+            <li key={title.name}>
+              <Link href={title.link}>{title.name}</Link>
+            </li>
           ))}
         </ul>
       </div>

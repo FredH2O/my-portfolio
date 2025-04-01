@@ -5,13 +5,15 @@ const Skills = () => {
   return (
     <div className="relative flex flex-wrap items-center justify-center gap-10 p-5 lg:p-10 lg:gap-10">
       {icons.map((icon) => (
-        <Image
-          key={icon.id}
-          src={icon.icon}
-          alt={icon.alt}
-          width={50}
-          height={50}
-        />
+        <div className="flex justify-center w-12 h-12 rounded" key={icon.id}>
+          <Image
+            src={icon.icon}
+            alt={icon.alt}
+            width={50}
+            priority
+            height={50}
+          />
+        </div>
       ))}
     </div>
   );
