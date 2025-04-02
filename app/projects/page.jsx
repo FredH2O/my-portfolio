@@ -1,11 +1,12 @@
 import FadeInSection from "@/components/animations/FadeInSection";
 import projects from "@/app/data/projects.json";
 import Image from "next/image";
+import KEYWORD_BG from "@/app/utils/keywordsColor.js";
 
 const Projects = () => {
   return (
     <FadeInSection>
-      <div className="container relative z-20 grid h-auto gap-10 p-10 m-auto pt-26 xl:grid-cols-3 lg:grid-cols-2">
+      <div className="container relative z-20 grid h-auto gap-10 p-10 m-auto to pt-26 xl:grid-cols-3 lg:grid-cols-2">
         {projects.map((project) => (
           <div
             key={project.title}
@@ -26,6 +27,20 @@ const Projects = () => {
               <p className="flex-1 py-5 text-slate-400">
                 {project.description}
               </p>
+            </div>
+            <div>
+              <ul className="flex flex-wrap gap-2">
+                {project.keywords.map((word, index) => (
+                  <li
+                    className={`px-2 py-0.5 border rounded border-white text-black text-sm ${KEYWORD_BG(
+                      word
+                    )}`}
+                    key={index}
+                  >
+                    {word}
+                  </li>
+                ))}
+              </ul>
             </div>
             <button className="self-end px-2 py-5 transition-all ease-in-out hover:-translate-y-1">
               <a
