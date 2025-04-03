@@ -2,6 +2,7 @@
 import { useState } from "react";
 import BurgerIcon from "./BurgerIcon";
 import Link from "next/link";
+import Image from "next/image";
 
 const Navigation = [
   {
@@ -31,8 +32,8 @@ const Navbar = () => {
 
   return (
     <nav className="relative flex items-center justify-between px-5 py-4 text-zinc-100">
-      <div>
-        <h1 className="text-2xl font-bold">&lt;Fred /&gt;</h1>
+      <div className="">
+        <Image src="/images/logo_transparent.png" width={120} height={120} />
       </div>
 
       <div className="">
