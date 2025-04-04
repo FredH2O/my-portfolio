@@ -17,7 +17,7 @@
   },
   {
     "title": "Next News",
-    "description": "A single-page news website showcasing the latest headlines. Built using HTML, CSS, JavaScript, React, Next.js, with Tailwind CSS for styling. Fetches data dynamically from an API. Deployed on Vercel.",
+    "description": "A sleek, responsive news web app built with Next.js and React. Styled with Tailwind CSS and powered by dynamic API integration via Axios, it delivers real-time headlines in a clean single-page experience. Fully deployed on Vercel.",
     "url": "https://nextnews-app.vercel.app/",
     "image": "/projectsImages/next-news.png",
     "keywords": [
