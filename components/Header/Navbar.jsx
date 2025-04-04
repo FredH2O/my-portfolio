@@ -33,7 +33,12 @@ const Navbar = () => {
   return (
     <nav className="relative flex items-center justify-between px-5 py-4 text-zinc-100">
       <div className="">
-        <Image src="/images/logo_transparent.png" width={120} height={120} />
+        <Image
+          src="/images/logo_transparent.png"
+          alt="Fred's Logo"
+          width={120}
+          height={120}
+        />
       </div>
 
       <div className="">
