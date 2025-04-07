@@ -1,19 +1,23 @@
+"use client";
 import projects from "@/app/data/projects.json";
 import Image from "next/image";
 import KEYWORD_BG from "@/app/utils/keywordsColor.js";
+import { useProject } from "@/app/context/ProjectContext";
 
 const ProjectCard = () => {
+  const { selectProject } = useProject();
   return (
     <div className="container relative z-20 grid h-auto gap-10 p-2 m-auto lg:p-10 to pt-26 xl:grid-cols-3 lg:grid-cols-2">
       {projects.map((project) => (
         <div
+          onClick={() => selectProject(project)}
           key={project.title}
-          className="flex flex-col p-3 space-y-3 bg-gray-700 border rounded border-slate-500"
+          className="flex flex-col p-3 space-y-3 bg-gray-700 border rounded cursor-pointer hover:bg-gray-900 border-slate-600"
         >
           <div className="flex justify-center lg:h-[300px] w-full">
             <Image
               src={project.image}
-              className="object-contain border rounded lg:w-full bg-slate-800 border-slate-600"
+              className="object-contain rounded lg:w-full bg-slate-800"
               width={1000}
               height={500}
               alt={project.title}
@@ -25,7 +29,7 @@ const ProjectCard = () => {
             <p className="flex-1 py-2 text-slate-400">{project.description}</p>
           </div>
 
-          <div className="p-5 border rounded border-slate-500 bg-slate-600">
+          <div className="p-5 rounded bg-slate-600">
             <h2 className="font-extralight">Tech Stack</h2>
             <ul className="flex flex-wrap gap-1">
               {project.keywords.map((word, index) => (

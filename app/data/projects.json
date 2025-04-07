@@ -2,6 +2,7 @@
   {
     "title": "Lek's Bakehouse",
     "description": "A single-page website built for a friend, showcasing artistic desserts. Built using HTML, CSS, JavaScript, React, Next.js, with Tailwind CSS for styling. Deployed on Vercel.",
+    "details": "Lek's Bakehouse is a lovingly crafted single-page website made for a dear friend who recently earned her certification in artistic dessert making. This project serves as both a digital showcase of her elegant confections and a testament to modern frontend development. The site was built with HTML, CSS, JavaScript, and React—structured with Next.js and styled using Tailwind CSS to maintain a clean, airy aesthetic. Framer Motion breathes life into the user experience with subtle animations that mirror the grace of each dessert displayed. Deployed on Vercel, the site loads swiftly and responsively across all devices. Whether viewed on desktop or mobile, visitors are invited into a visual storybook of culinary craftsmanship, capturing the heart and spirit of a homegrown bakehouse.",
     "url": "https://leks-bakehouse.vercel.app/",
     "image": "/projectsImages/leks-bakehouse.png",
     "keywords": [
@@ -18,6 +19,7 @@
   {
     "title": "Next News",
     "description": "A sleek, responsive news web app built with Next.js and React. Styled with Tailwind CSS and powered by dynamic API integration via Axios, it delivers real-time headlines in a clean single-page experience. Fully deployed on Vercel.",
+    "details": "Next News is a modern, dynamic web application designed to bring real-time headlines to users in an elegant, responsive interface. Built using the robust framework of Next.js and powered by React, this single-page app demonstrates your growing command of full-stack principles on the frontend. With Axios handling API integration, the site fetches and displays up-to-the-minute news content smoothly and efficiently. Tailwind CSS is used for styling, ensuring that each element is crisp, clean, and responsive across all devices. Deployed seamlessly on Vercel, the app offers lightning-fast load times and a minimalist design language that keeps user attention where it belongs—on the news. Next News is not just a portfolio piece; it's a professional-grade product that showcases your ability to blend utility, aesthetics, and cutting-edge tools into one cohesive user experience.",
     "url": "https://nextnews-app.vercel.app/",
     "image": "/projectsImages/next-news.png",
     "keywords": [
