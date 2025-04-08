@@ -10,8 +10,14 @@ export const ProjectProvider = ({ children }) => {
     setSelectedProject(project);
   };
 
+  const closeProject = () => {
+    setSelectedProject(null);
+  };
+
   return (
-    <ProjectContext.Provider value={{ selectProject, selectedProject }}>
+    <ProjectContext.Provider
+      value={{ closeProject, selectProject, selectedProject }}
+    >
       {children}
     </ProjectContext.Provider>
   );

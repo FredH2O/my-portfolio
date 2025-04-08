@@ -1,7 +1,6 @@
 "use client";
 import projects from "@/app/data/projects.json";
 import Image from "next/image";
-import KEYWORD_BG from "@/app/utils/keywordsColor.js";
 import { useProject } from "@/app/context/ProjectContext";
 
 const ProjectCard = () => {
@@ -29,21 +28,6 @@ const ProjectCard = () => {
             <p className="flex-1 py-2 text-slate-400">{project.description}</p>
           </div>
 
-          <div className="p-5 rounded bg-slate-600">
-            <h2 className="font-extralight">Tech Stack</h2>
-            <ul className="flex flex-wrap gap-1">
-              {project.keywords.map((word, index) => (
-                <li
-                  className={`px-3 font-semibold text-sm italic py-0.5 border-2 rounded-lg border-slate-400 text-slate-900 ${KEYWORD_BG(
-                    word
-                  )}`}
-                  key={index}
-                >
-                  {word}
-                </li>
-              ))}
-            </ul>
-          </div>
           <a
             href={project.url}
             className="self-end px-5 py-2 mt-5 transition-all ease-in-out border rounded hover:-translate-y-1 border-slate-500 bg-sky-500 hover:bg-sky-600"
