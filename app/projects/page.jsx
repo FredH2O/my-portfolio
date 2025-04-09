@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <FadeInSection>
       {/* intro to projects */}
-      <div className="container w-1/2 py-10 m-auto">
+      <div className="container px-3 py-10 m-auto">
         <h2 className="text-3xl text-sky-500">My projects so far..</h2>
         <p className="text-slate-400">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident
