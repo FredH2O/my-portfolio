@@ -25,7 +25,10 @@ const MainProjectCard = () => {
       <p className="italic text-center">Click a project to view details.</p>
     );
   return (
-    <div className="fixed inset-0 z-50 flex h-auto overflow-y-auto bg-black/95">
+    <div
+      onClick={closeProject}
+      className="fixed inset-0 z-50 flex h-auto overflow-y-auto bg-black/95"
+    >
       <div className="container relative grid justify-center h-full gap-1 m-auto pt-15 lg:grid-cols-2 place-items-center">
         <div className="px-1">
           <Image
@@ -40,7 +43,12 @@ const MainProjectCard = () => {
         <div className="flex flex-col items-center justify-center p-3">
           <h2 className="py-3 text-3xl font-bold">{selectedProject.title}</h2>
           <p className="px-2 py-5 overflow-auto text-center text-slate-300 lg:text-left">
-            {selectedProject.details}
+            {selectedProject.details.split("\n").map((line, index) => (
+              <span key={index}>
+                {line}
+                <br />
+              </span>
+            ))}
           </p>
           <Keywords selectedProject={selectedProject} />
           <a

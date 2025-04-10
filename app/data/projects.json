@@ -2,7 +2,7 @@
   {
     "title": "Lek's Bakehouse",
     "description": "A single-page website built for a friend, showcasing artistic desserts. Built using HTML, CSS, JavaScript, React, Next.js, with Tailwind CSS for styling. Deployed on Vercel.",
-    "details": "Lek's Bakehouse is a lovingly crafted single-page website made for a dear friend who recently earned her certification in artistic dessert making. This project serves as both a digital showcase of her elegant confections and a testament to modern frontend development. The site was built with HTML, CSS, JavaScript, and React—structured with Next.js and styled using Tailwind CSS to maintain a clean, airy aesthetic. Framer Motion breathes life into the user experience with subtle animations that mirror the grace of each dessert displayed. Deployed on Vercel, the site loads swiftly and responsively across all devices. Whether viewed on desktop or mobile, visitors are invited into a visual storybook of culinary craftsmanship, capturing the heart and spirit of a homegrown bakehouse.",
+    "details": "Lek's Bakehouse is a beautifully designed, single-page website created for a close friend who recently earned her certification in artistic dessert making.\n\nThis project serves as a digital portfolio, showcasing her elegant confections while reflecting modern frontend development techniques. Built using HTML, CSS, JavaScript, and React, the website is structured with Next.js and styled with Tailwind CSS to ensure a clean, minimalist aesthetic.\n\nSubtle animations, powered by Framer Motion, add life to the user experience, enhancing the visual appeal of each dessert displayed.\n\nThe site is hosted on Vercel, ensuring fast load times and responsiveness across all devices, providing an optimal user experience whether on desktop or mobile. Visitors are invited to explore a visually rich storybook of culinary craftsmanship, celebrating the art of baking at its finest.",
     "url": "https://leks-bakehouse.vercel.app/",
     "image": "/projectsImages/leks-bakehouse.png",
     "keywords": [
@@ -19,7 +19,7 @@
   {
     "title": "Next News",
     "description": "A sleek, responsive news web app built with Next.js and React. Styled with Tailwind CSS and powered by dynamic API integration via Axios, it delivers real-time headlines in a clean single-page experience. Fully deployed on Vercel.",
-    "details": "Next News is a modern, dynamic web application designed to bring real-time headlines to users in an elegant, responsive interface. Built using the robust framework of Next.js and powered by React, this single-page app demonstrates your growing command of full-stack principles on the frontend. With Axios handling API integration, the site fetches and displays up-to-the-minute news content smoothly and efficiently. Tailwind CSS is used for styling, ensuring that each element is crisp, clean, and responsive across all devices. Deployed seamlessly on Vercel, the app offers lightning-fast load times and a minimalist design language that keeps user attention where it belongs—on the news. Next News is not just a portfolio piece; it's a professional-grade product that showcases your ability to blend utility, aesthetics, and cutting-edge tools into one cohesive user experience.",
+    "details": "Next News is a sleek, real-time news web app designed for a modern, dynamic user experience.\n\nBuilt using Next.js and React, this single-page app highlights your growing expertise in full-stack frontend development. Powered by Axios, it fetches up-to-the-minute news from dynamic APIs, ensuring smooth and efficient content delivery.\n\nTailwind CSS is employed for styling, providing a clean, crisp, and fully responsive design across all devices. Deployed on Vercel, the app loads instantly and features a minimalist design, keeping users focused on the latest headlines.\n\nMore than just a portfolio project, Next News demonstrates your ability to create professional-grade applications that combine utility, aesthetic appeal, and modern tools seamlessly into a powerful user experience.",
     "url": "https://nextnews-app.vercel.app/",
     "image": "/projectsImages/next-news.png",
     "keywords": [
@@ -36,6 +36,7 @@
   {
     "title": "Moonway Travels",
     "description": "A single-page travel application showcasing hotels with information fetched dynamically. Built with React, Tailwind CSS, and Axios.",
+    "details": "Moonway Travels is a sleek and responsive single-page travel application designed to give users a quick, elegant overview of hotels and accommodations. The project was built using React for the interactive UI, Tailwind CSS for fast and consistent styling, and Axios to dynamically fetch hotel data from an external API. I designed the layout to be intuitive and user-friendly, with clean sections showcasing hotel names, descriptions, and images. Each part of the UI updates smoothly without full page reloads, highlighting my understanding of component-based architecture and asynchronous JavaScript.\n\nThis website was originally built as part of a frontend development test for 'Sunway Travels.' Although I wasn't selected for the role, it turned into a valuable experience—I learned a tremendous amount in just a few days. It was a time trial challenge that pushed me to work quickly, think clearly, and execute cleanly under pressure. I'm proud of how much I accomplished in a short span, and this project remains a key milestone in my learning journey.",
     "url": "https://fredh2o.github.io/moonway-travel/",
     "image": "/projectsImages/moonway-travel-image.png",
     "keywords": ["HTML", "CSS", "JavaScript", "React", "Axios"]
@@ -43,6 +44,7 @@
   {
     "title": "Café Bianco",
     "description": "A stylish landing page for a café, highlighting its menu and ambiance with a clean, modern design.",
+    "details": "Café Bianco is a modern, single-page landing site built to evoke the cozy elegance of a European-style café.\n\nThis project focused on presenting the café's atmosphere, menu highlights, and call-to-action through a minimal yet classy layout. I paid special attention to visual harmony, spacing, and subtle transitions to reflect a polished brand image.\n\nAlthough it’s a simple concept, I treated this project as a design refinement challenge—balancing aesthetics with clarity, and structure with softness. Every section was hand-crafted using only React and styled with custom Tailwind CSS utilities.\n\nBuilding this helped me sharpen my frontend skills, especially with layout responsiveness and UI storytelling.",
     "url": "https://fredh2o.github.io/cafe-bianco",
     "image": "/projectsImages/cafe-bianco-image.png",
     "keywords": ["HTML", "CSS", "JavaScript", "React"]
@@ -50,6 +52,7 @@
   {
     "title": "Flex Trap Clothing",
     "description": "An e-commerce demo for a clothing brand, featuring a trendy design and user-friendly layout.",
+    "details": "Flex Trap Clothing is a bold, fashion-forward e-commerce concept I designed to simulate a real-world online store experience.\n\nI created this as a personal design and coding challenge, focusing on layout, structure, and smooth user interaction. Every section—from the hero banner to product highlights—was crafted to echo a modern streetwear vibe, complete with bold fonts, clean visuals, and an easy-to-navigate interface.\n\nThis project helped me grasp the fundamentals of e-commerce UI design and sharpened my understanding of how to balance style with usability. While it doesn’t include advanced features like a cart or authentication, it laid the groundwork for thinking in a product-first mindset.\n\nIt was built using pure HTML, CSS, and JavaScript—just me and the basics, pushing the boundaries of what’s possible with no frameworks.",
     "url": "https://fredh2o.github.io/Flex-Trap-Clothing.co/",
     "image": "/projectsImages/flex-trap-clothing.png",
     "keywords": ["HTML", "CSS", "JavaScript"]
@@ -57,6 +60,7 @@
   {
     "title": "Plant Care",
     "description": "A web app for houseplant enthusiasts, providing tips on care, origins, and temperature requirements for various plants.",
+    "details": "Plant Care is a cozy, knowledge-rich web application built for fellow houseplant lovers. It serves as a quick guide to essential plant care tips—including origin information, temperature needs, and care instructions for a variety of common houseplants.\n\nThe data is fetched dynamically through an API using Axios, and presented in a clean, scrollable layout styled with TailwindCSS. The entire interface is designed to be beginner-friendly, making it a handy tool for both seasoned plant parents and curious newcomers.\n\nThis project gave me more practice with handling external data, building reusable components, and presenting information in a calming, organized format. I enjoyed mixing React logic with a green aesthetic—it was like coding in a little indoor jungle.\n\nIt’s one of those projects that reflects my personal interests and lets my frontend skills grow alongside my plants.",
     "url": "https://fredh2o.github.io/plant-care/",
     "image": "/projectsImages/plant-care-guide.png",
     "keywords": [
@@ -72,6 +76,7 @@
   {
     "title": "Gym Website",
     "description": "This project showcases a responsive gym website with key sections such as facilities, membership plans, and programs. Built with HTML, CSS, JavaScript, and Bootstrap, it demonstrates a clean design and practical application of web development skills.",
+    "details": "This Gym Website was built as part of my early exploration into responsive design and layout structuring. It features essential sections like facilities, training programs, and membership plans—mimicking a real gym’s online presence.\n\nI used Bootstrap to accelerate layout creation and ensure responsiveness across devices, while enhancing the experience with custom CSS and a touch of JavaScript for interactivity.\n\nThis project helped me build confidence with Bootstrap’s grid system and components, and it taught me how to create a structured, visually appealing layout from scratch.\n\nThough it’s a simple static site, it was a key milestone in my frontend journey—one of those early wins that showed me I could bring professional-looking websites to life.",
     "url": "https://fredh2o.github.io/Gym-Website/",
     "image": "/projectsImages/gym-website.png",
     "keywords": ["HTML", "CSS", "JavaScript", "BootStrap"]
@@ -79,6 +84,7 @@
   {
     "title": "Pence's Bakery",
     "description": "A React app showcasing bakery items with dynamic features like add-to-cart, responsive design, and detail modals. Built with React and Bootstrap, it highlights skills in state management and modern frontend development.",
+    "details": "Pence's Bakery is a fully responsive React application crafted to display a tempting array of baked goods. It features interactive elements like item modals, add-to-cart functionality, and detailed views—all presented with a clean and welcoming design.\n\nThe project started as a personal challenge to practice state management and dynamic rendering in React. I used Bootstrap initially, but later added TailwindCSS touches for better styling control and consistency.\n\nWorking on this app sharpened my understanding of component structure, props, and hooks—especially how to manage local state for cart operations and modal visibility.\n\nIt was a fun project that not only tested my frontend skills but also helped me think more like a product designer, balancing visuals with functionality.",
     "url": "https://fredh2o.github.io/Bakery-Shop/",
     "image": "/projectsImages/bakery.png",
     "keywords": ["HTML", "CSS", "JavaScript", "React", "TailwindCSS"]
@@ -86,6 +92,7 @@
   {
     "title": "Weather App",
     "description": "Of course, what is a portfolio without a responsive web app displaying real-time weather for any location? Built with HTML, CSS, and JavaScript, it features location search, dynamic updates, and animated weather icons, showcasing skills in API integration and clean, responsive design.",
+    "details": "This Weather App was one of my first real experiences working with third-party APIs. It fetches real-time weather data from an open API based on user input and displays information like temperature, conditions, and location in a clean UI.\n\nBuilding this helped me understand how to work with asynchronous JavaScript, handle user input dynamically, and parse JSON responses from external services.\n\nI combined TailwindCSS with vanilla JavaScript to create a modern, responsive design with minimal code and clean utility classes. I also experimented with animated weather icons to enhance the visual feedback.\n\nIt may be a common project, but it taught me foundational frontend skills that I still use today—especially how to make apps that feel alive and interactive.",
     "url": "https://fredh2o.github.io/Weather-App/",
     "image": "/projectsImages/weather.png",
     "keywords": ["HTML", "CSS", "JavaScript", "TailwindCSS", "API"]
@@ -93,6 +100,7 @@
   {
     "title": "Dog Breed Info",
     "description": "Random Dog Breed Info is a React-based app that retrieves and displays information about various dog breeds using a public API, featuring responsive design and smooth animations.",
+    "details": "This app generates random dog breeds each time the user interacts with it, displaying details such as breed characteristics, temperament, and images.\n\nThe data is fetched from a public API, ensuring that users receive up-to-date information with each random dog displayed. The app features a clean, responsive design that works seamlessly across both mobile and desktop devices.\n\nSmooth animations enhance the user experience, making the process of discovering new dog breeds both fun and engaging.",
     "url": "https://fredh2o.github.io/Random-Dog-Breed-Info/",
     "image": "/projectsImages/dog-info.png",
     "keywords": ["HTML", "CSS", "JavaScript", "React", "TailwindCSS", "API"]
@@ -100,6 +108,7 @@
   {
     "title": "Joke-Generator",
     "description": "Joke Generator is a fun, interactive web app built with HTML, CSS, and JavaScript that generates random jokes with a click, providing users with a humorous break. It's easily customizable and great for learning front-end development.",
+    "details": "The app allows users to click a button to generate a random joke, providing an entertaining and lighthearted experience. The jokes are fetched from a public API, ensuring a fresh and unpredictable selection each time.\n\nDesigned with simplicity in mind, the app's interface is clean and user-friendly. It’s also fully responsive, offering a smooth experience on both desktop and mobile devices.\n\nThis project is perfect for beginners looking to practice working with APIs, handling user interactions, and styling with CSS.",
     "url": "https://fredh2o.github.io/Joke-Generator/",
     "image": "/projectsImages/joke-generator.png",
     "keywords": ["HTML", "CSS", "JavaScript", "API"]
@@ -107,6 +116,7 @@
   {
     "title": "Rock, Paper, Scissors!",
     "description": "Rock Paper Scissors is a web-based game where you play against a computer opponent. Developed with HTML, CSS, and JavaScript, it features score tracking and a responsive design for desktop and mobile.",
+    "details": "This simple yet entertaining game allows users to play Rock, Paper, Scissors against a computer opponent. The game features real-time score tracking to enhance the competitive experience.\n\nDeveloped using basic HTML, CSS, and JavaScript, it serves as a solid foundation for practicing logic and interactivity in web development. The app is designed to be fully responsive, ensuring that users can enjoy it on both desktop and mobile devices.\n\nThis project was part of my challenge during my time at Cenit College / eCollege, where I honed my skills in HTML, CSS, and JavaScript through hands-on projects.",
     "url": "https://fredh2o.github.io/Rock-Paper-Scissor-Game/",
     "image": "/projectsImages/rock-paper-scissors.png",
     "keywords": ["HTML", "CSS", "JavaScript"]
@@ -114,6 +124,7 @@
   {
     "title": "JavaScript Quiz",
     "description": "This is a simple quiz game built with HTML, CSS, and JavaScript. The game features multiple-choice questions and keeps track of the player's score. It also utilizes lodash for utility functions and Bootstrap Icons for a polished interface.",
+    "details": "The JavaScript Quiz app presents users with multiple-choice questions, testing their knowledge on various topics. The game tracks the player's score as they progress through the quiz, providing immediate feedback on their answers.\n\nTo enhance the app's functionality and performance, lodash is used for utility functions like randomizing questions and shuffling answers. Bootstrap Icons are implemented to give the interface a polished, visually appealing design.\n\nThis project demonstrates the use of JavaScript for interactive content, managing state, and working with external libraries for added functionality.",
     "url": "https://fredh2o.github.io/Javascript-Quiz/",
     "image": "/projectsImages/javascript-quiz.png",
     "keywords": ["HTML", "CSS", "JavaScript"]
@@ -121,13 +132,15 @@
   {
     "title": "To-Do List",
     "description": "The To-Do List Web App helps manage tasks with features to add, edit, delete, and mark as complete. Built with JavaScript, HTML, and CSS, it’s responsive and uses Confetti.js to celebrate completing all tasks.",
+    "details": "The To-Do List app allows users to manage their daily tasks by adding, editing, deleting, and marking tasks as complete. Each task has a checkbox that users can check when finished, providing clear visual feedback.\n\nIn addition to basic functionality, the app uses Confetti.js to add a fun and celebratory animation when all tasks are completed, enhancing the user experience. The app is fully responsive, ensuring it works well across desktop and mobile devices.\n\nThis project showcases fundamental JavaScript skills, including DOM manipulation, event handling, and maintaining state with local storage to persist tasks across sessions.",
     "url": "https://fredh2o.github.io/To-Do-List/",
     "image": "/projectsImages/todo-list.png",
     "keywords": ["HTML", "CSS", "JavaScript"]
   },
   {
     "title": "Random Food Recipe",
-    "description": "Random Food Recipe Generator is a fun and interactive web app that provides users with random recipes at the click of a button. Built with HTML, CSS, and JavaScript, it fetches delicious recipes from an API and displays key details such as ingredients and projectsImages. Perfect for meal inspiration and exploring new dishes!",
+    "description": "Random Food Recipe Generator is a fun and interactive web app that provides users with random recipes at the click of a button. Built with HTML, CSS, and JavaScript, it fetches delicious recipes from an API and displays key details such as ingredients and images. Perfect for meal inspiration and exploring new dishes!",
+    "details": "The Random Food Recipe Generator is a web app that allows users to discover new recipes at random by simply clicking a button. The app fetches a random recipe from a public API, displaying key details such as the recipe's ingredients, cooking instructions, and an image of the final dish.\n\nThe app is built using HTML, CSS, and JavaScript, with a focus on interactive design and API integration. It’s fully responsive, making it accessible on both desktop and mobile devices. This project is perfect for users looking to explore new dishes and find inspiration for their next meal.\n\nBy leveraging the power of APIs, the app demonstrates how to fetch and display dynamic content in a clean and user-friendly interface.",
     "url": "https://fredh2o.github.io/food-recipe/",
     "image": "/projectsImages/food-recipe.png",
     "keywords": ["HTML", "CSS", "JavaScript", "API"]
