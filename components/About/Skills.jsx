@@ -8,15 +8,16 @@ const Skills = ({ className }) => {
     >
       {icons.map((icon) => (
         <div
-          className="flex justify-center bg-slate-800 w-auto transition duration-300 ease-in-out h-[60px] p-1 border-2 border-slate-700 hover:border-sky-500 cursor-pointer rounded active:border-sky-500 active:duration-500"
+          className="flex justify-center w-auto h-auto p-1 transition duration-300 ease-in-out border-2 rounded cursor-pointer bg-slate-800 border-slate-700 hover:border-sky-500 active:border-sky-500 active:duration-500"
           key={icon.id}
         >
           <Image
+            className="w-13 h-[50px]"
             src={icon.icon}
             alt={icon.alt}
             width={50}
-            priority
             height={50}
+            priority
           />
         </div>
       ))}

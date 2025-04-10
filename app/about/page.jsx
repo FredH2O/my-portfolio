@@ -1,12 +1,12 @@
 import Skills from "@/components/About/Skills";
 import FadeInSection from "@/components/animations/FadeInSection";
 
-const theyCallMe = [
+const rolesAndInterests = [
   "Web Developer",
   "Frontend Developer",
   "Gamer",
-  "Houseplant Father",
-  "Goldfish Specialist",
+  "Houseplant Enthusiast",
+  "Aquatic Life Specialist",
 ];
 
 const About = () => {
@@ -25,29 +25,28 @@ const About = () => {
               </p>
               <h2 className="text-3xl leading-relaxed">Frederico Huertas</h2>
               <ul className="flex flex-row flex-wrap gap-1 text-slate-500">
-                {theyCallMe.map((title, index) => (
+                {rolesAndInterests.map((title, index) => (
                   <li className="text-sm italic" key={index}>
                     {title}
-                    {index < theyCallMe.length - 1 ? " |" : ""}
+                    {index < rolesAndInterests.length - 1 ? " |" : ""}
                   </li>
                 ))}
               </ul>
             </div>
             <p className="text-lg leading-relaxed text-gray-300 lg:text-left md:text-xl">
-              I’m on a mission to craft intuitive, user-friendly web
-              experiences. As I transition into frontend development, I’m fueled
-              by a passion for modern web technologies and continuous learning.
-              I've built hands-on experience with HTML, CSS, JavaScript, React,
-              and Tailwind CSS—my go-to for styling. I’m also familiar with
-              Bootstrap, Git, GitHub, and even some Material-UI. With every
-              project, I aim to refine my skills and create impactful digital
-              solutions.
+              I’m all about crafting intuitive, user-friendly web experiences as
+              I dive into frontend development. I’ve gained hands-on experience
+              with modern web tech like HTML, CSS, JavaScript, React, and
+              Tailwind CSS, which I love for styling. I’ve also worked with
+              Bootstrap, Git, GitHub, and explored Material-UI to level up my
+              projects. <br />
               <br />
-              <br />
-              Outside of coding, I’m a gamer at heart, exploring virtual worlds
-              to unwind. When I’m not gaming, I enjoy taking care of my
-              houseplants—bringing a little greenery into my space to keep
-              things fresh and grounded. Let’s build something amazing together!
+              Every new project is a chance to keep improving and create digital
+              solutions that matter. When I’m not coding, you’ll find me gaming,
+              escaping into virtual worlds to unwind. I also enjoy caring for my
+              houseplants—keeping a bit of greenery around always keeps me
+              grounded. If you’re looking to build something cool together,
+              let’s make it happen!
             </p>
           </div>
         </div>

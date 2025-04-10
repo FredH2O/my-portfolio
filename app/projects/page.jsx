@@ -7,13 +7,16 @@ const Projects = () => {
   return (
     <FadeInSection>
       {/* intro to projects */}
-      <div className="container px-3 py-10 m-auto">
-        <h2 className="text-3xl text-sky-500">My projects so far..</h2>
-        <p className="text-slate-400">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident
-          reiciendis perspiciatis excepturi vero quaerat expedita ipsum nobis
-          laborum veniam quis, ut tempora porro illum repudiandae quae
-          consequuntur dolorum hic vitae.
+      <div className="container max-w-5xl px-3 pt-10 pb-20 m-auto">
+        <h2 className="pb-3 text-3xl font-bold text-sky-400">
+          My projects so far..
+        </h2>
+        <p className="font-light text-slate-300">
+          Here is a collection of my recent work, where I focus on building
+          innovative and user-friendly web solutions. Each project reflects my
+          dedication to quality, design, and functionality. I continue to refine
+          my skills and create impactful digital experiences with every new
+          challenge.
         </p>
       </div>
       {/* projects section */}

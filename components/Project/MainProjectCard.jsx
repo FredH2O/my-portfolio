@@ -22,7 +22,9 @@ const MainProjectCard = () => {
 
   if (!selectedProject)
     return (
-      <p className="italic text-center">Click a project to view details.</p>
+      <p className="italic text-center underline underline-offset-4">
+        Click a project to view details.
+      </p>
     );
   return (
     <div

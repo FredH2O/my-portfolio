@@ -52,10 +52,10 @@
   {
     "title": "Flex Trap Clothing",
     "description": "An e-commerce demo for a clothing brand, featuring a trendy design and user-friendly layout.",
-    "details": "Flex Trap Clothing is a bold, fashion-forward e-commerce concept I designed to simulate a real-world online store experience.\n\nI created this as a personal design and coding challenge, focusing on layout, structure, and smooth user interaction. Every section—from the hero banner to product highlights—was crafted to echo a modern streetwear vibe, complete with bold fonts, clean visuals, and an easy-to-navigate interface.\n\nThis project helped me grasp the fundamentals of e-commerce UI design and sharpened my understanding of how to balance style with usability. While it doesn’t include advanced features like a cart or authentication, it laid the groundwork for thinking in a product-first mindset.\n\nIt was built using pure HTML, CSS, and JavaScript—just me and the basics, pushing the boundaries of what’s possible with no frameworks.",
+    "details": "Flex Trap Clothing is a bold, fashion-forward e-commerce concept designed to simulate the experience of shopping at a real-world online store.\n\nI built this as a personal design and coding challenge, focusing on layout, structure, and smooth user interaction. From the hero banner to the product highlights, every section was crafted to capture a modern streetwear vibe, complete with bold fonts, clean visuals, and an easy-to-navigate interface.\n\nThis project helped me grasp the fundamentals of e-commerce UI design and improved my understanding of how to balance style with usability. While it doesn’t include advanced features like a cart or authentication, it was an important step in developing a product-first mindset.\n\nBuilt using pure HTML, CSS, and JavaScript, this project pushed the boundaries of what’s possible without frameworks, relying solely on the basics to create a polished experience.",
     "url": "https://fredh2o.github.io/Flex-Trap-Clothing.co/",
     "image": "/projectsImages/flex-trap-clothing.png",
-    "keywords": ["HTML", "CSS", "JavaScript"]
+    "keywords": ["HTML", "CSS", "JavaScript", "TailwindCSS"]
   },
   {
     "title": "Plant Care",
