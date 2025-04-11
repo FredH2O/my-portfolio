@@ -1,10 +1,35 @@
 "use client";
+import { useState } from "react";
+import axios from "axios";
 
 const Form = () => {
+  const [submitForm, setSubmitForm] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setSubmitForm((previous) => ({
+      ...previous,
+      [name]: value,
+    }));
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert("Form submitted!!");
+
+    alert(`${submitForm.name}, ${submitForm.email}, ${submitForm.message}`);
+
+    // clear
+    setSubmitForm({
+      name: "",
+      email: "",
+      message: "",
+    });
   };
+
   return (
     <form
       onSubmit={handleSubmit}
@@ -21,6 +46,8 @@ const Form = () => {
           type="text"
           id="name"
           name="name"
+          value={submitForm.name}
+          onChange={handleChange}
           className="w-full p-3 mt-1 text-black border border-gray-300 rounded-lg placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-sky-500"
           placeholder="Your Name"
           required
@@ -38,6 +65,8 @@ const Form = () => {
           type="email"
           id="email"
           name="email"
+          value={submitForm.email}
+          onChange={handleChange}
           className="w-full p-3 mt-1 text-black border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-sky-500 placeholder:text-gray-400"
           placeholder="Your Email"
           required
@@ -54,6 +83,8 @@ const Form = () => {
         <textarea
           id="message"
           name="message"
+          value={submitForm.message}
+          onChange={handleChange}
           className="w-full p-3 mt-1 text-black border border-gray-300 rounded-lg placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-sky-500"
           rows="4"
           maxLength={500}
