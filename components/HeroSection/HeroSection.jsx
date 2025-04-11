@@ -1,5 +1,6 @@
 import Threads from "./Threads";
 import FadeInSection from "../animations/FadeInSection";
+import Link from "next/link";
 
 const HeroSection = () => {
   return (
@@ -30,9 +31,12 @@ const HeroSection = () => {
                 Web developer exploring frontend technologies and creating
                 clean, responsive websites.
               </p>
-              <button className="px-10 py-3 mt-3 text-xl duration-500 ease-in-out border rounded-md cursor-pointer hover:translate-x-2 hover:pr-25 text-slate-800 hover:text-slate-900 bg-sky-500 hover:bg-sky-400">
+              <Link
+                href={"/contact"}
+                className="px-10 py-3 mt-3 text-xl duration-500 ease-in-out border rounded-md cursor-pointer hover:translate-x-2 hover:pr-25 text-slate-800 hover:text-slate-900 bg-sky-500 hover:bg-sky-400"
+              >
                 Let's Connect
-              </button>
+              </Link>
             </div>
           </div>
         </div>
