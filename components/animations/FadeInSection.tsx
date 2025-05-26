@@ -1,8 +1,12 @@
 "use client";
 import { motion } from "framer-motion";
-import React from "react";
+import { type ReactNode } from "react";
 
-const FadeInSection = ({ children }) => {
+type FadeProp = {
+  children: ReactNode;
+};
+
+const FadeInSection = ({ children }: FadeProp) => {
   return (
     <motion.section
       className="pt-16"

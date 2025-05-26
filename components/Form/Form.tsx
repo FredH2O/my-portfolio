@@ -1,16 +1,26 @@
 "use client";
-import { useState } from "react";
+import { ChangeEvent, FormEvent, useState } from "react";
 import axios from "axios";
 
+type FormType = {
+  name: string;
+  email: string;
+  message: string;
+};
+
+type StatusType = "success" | "error" | null;
+
 const Form = () => {
-  const [submitForm, setSubmitForm] = useState({
+  const [submitForm, setSubmitForm] = useState<FormType>({
     name: "",
     email: "",
     message: "",
   });
-  const [status, setStatus] = useState(null);
+  const [status, setStatus] = useState<StatusType>(null);
 
-  const handleChange = (e) => {
+  const handleChange = (
+    e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     const { name, value } = e.target;
     setSubmitForm((previous) => ({
       ...previous,
@@ -18,7 +28,7 @@ const Form = () => {
     }));
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     try {
@@ -127,7 +137,7 @@ const Form = () => {
             value={submitForm.message}
             onChange={handleChange}
             className="w-full p-3 mt-1 text-black border border-gray-300 rounded-lg placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-sky-500"
-            rows="4"
+            rows={4}
             maxLength={500}
             placeholder="Your Message"
             required

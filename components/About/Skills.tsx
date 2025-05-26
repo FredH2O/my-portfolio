@@ -1,7 +1,11 @@
 import Image from "next/image";
 import icons from "./Skills.json";
 
-const Skills = ({ className }) => {
+type ClassProp = {
+  className: string;
+};
+
+const Skills = ({ className }: ClassProp) => {
   return (
     <div
       className={`relative ${className} flex flex-wrap items-center justify-center gap-10 p-10`}
