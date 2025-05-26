@@ -1,12 +1,31 @@
 "use client";
-import { createContext, useState, useContext } from "react";
+import { createContext, useState, useContext, ReactNode } from "react";
 
-const ProjectContext = createContext();
+type ProjectContextType = {
+  selectedProject: Project | null;
+  selectProject: (project: Project) => void;
+  closeProject: () => void;
+};
 
-export const ProjectProvider = ({ children }) => {
+type Project = {
+  title: string;
+  description: string;
+  details: string;
+  url: string;
+  image: string;
+  keywords: string[];
+};
+
+type ChildrenProp = {
+  children: ReactNode;
+};
+
+const ProjectContext = createContext<ProjectContextType | undefined>(undefined);
+
+export const ProjectProvider = ({ children }: ChildrenProp) => {
   const [selectedProject, setSelectedProject] = useState(null);
 
-  const selectProject = (project) => {
+  const selectProject = (project: Project) => {
     setSelectedProject(project);
   };
 

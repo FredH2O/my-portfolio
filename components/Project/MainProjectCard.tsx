@@ -4,7 +4,15 @@ import { useProject } from "@/app/context/ProjectContext";
 import Keywords from "./Keywords";
 import { X } from "lucide-react";
 import { useEffect } from "react";
-import FadeInSection from "../animations/FadeInSection";
+
+export type Project = {
+  title: string;
+  description: string;
+  details: string;
+  url: string;
+  image: string;
+  keywords: string[];
+};
 
 const MainProjectCard = () => {
   const { selectedProject, closeProject } = useProject();
@@ -44,12 +52,14 @@ const MainProjectCard = () => {
         <div className="flex flex-col items-center justify-center p-3">
           <h2 className="py-3 text-3xl font-bold">{selectedProject.title}</h2>
           <p className="px-2 py-5 overflow-auto text-center text-slate-300 lg:text-left">
-            {selectedProject.details.split("\n").map((line, index) => (
-              <span key={index}>
-                {line}
-                <br />
-              </span>
-            ))}
+            {selectedProject.details
+              .split("\n")
+              .map((line: string, index: number) => (
+                <span key={index}>
+                  {line}
+                  <br />
+                </span>
+              ))}
           </p>
           <Keywords selectedProject={selectedProject} />
           <a

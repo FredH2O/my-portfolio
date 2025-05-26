@@ -21,10 +21,10 @@ const Navigation = [
     name: "Contact",
     link: "/contact",
   },
-];
+] as const;
 
 const Navbar = () => {
-  const [isMenu, setIsMenu] = useState(false);
+  const [isMenu, setIsMenu] = useState<boolean>(false);
 
   const handleClick = () => {
     setIsMenu((prev) => !prev);

@@ -1,6 +1,11 @@
-const BurgerIcon = ({ onClick }) => {
+import { MouseEventHandler } from "react";
+
+type ClickType = {
+  onClick: MouseEventHandler<HTMLInputElement>;
+};
+
+const BurgerIcon = ({ onClick }: ClickType) => {
   return (
-    /* From Uiverse.io by Shubh0408 */
     <label>
       <div className="flex flex-col items-center justify-center h-10 cursor-pointer w-9 md:hidden">
         <input className="hidden peer" type="checkbox" onClick={onClick} />
