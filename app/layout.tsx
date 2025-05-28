@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
 import { Analytics } from "@vercel/analytics/react";
+import AppWrapper from "@/components/AppWrapper/AppWrapper";
 
 const dm_sans = DM_Sans({
   subsets: ["latin"],
@@ -92,9 +93,11 @@ export default function RootLayout({ children }) {
       <body
         className={`${poppins.variable} ${dm_sans.variable} ${inter.variable} relative antialiased`}
       >
-        <Header />
-        <main>{children}</main>
-        <Footer />
+        <AppWrapper>
+          <Header />
+          <main>{children}</main>
+          <Footer />
+        </AppWrapper>
         <Analytics />
       </body>
     </html>
