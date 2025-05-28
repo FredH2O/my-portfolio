@@ -31,7 +31,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="relative flex items-center justify-between px-5 py-4 text-zinc-100">
+    <nav className="relative flex items-center lg:justify-evenly justify-between px-5 py-4 text-zinc-100">
       <div className="">
         <Image
           src="/images/logo_transparent.png"
