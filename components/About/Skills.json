@@ -25,9 +25,9 @@
   },
   {
     "id": 5,
-    "name": "TailwindCSS",
+    "name": "Tailwind",
     "icon": "/icons/tailwindcss.svg",
-    "alt": "TailwindCSS Icon"
+    "alt": "Tailwind Icon"
   },
   {
     "id": 6,

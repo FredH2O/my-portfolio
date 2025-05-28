@@ -19,6 +19,7 @@ const Skills = ({ className }: ClassProp) => {
             className="w-13 h-[50px]"
             src={icon.icon}
             alt={icon.alt}
+            title={icon.name}
             width={50}
             height={50}
             priority
