@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import BlurText from "./BlurText";
+import LoadingScreen from "./LoadingScreen";
 
 const Loader = () => {
   const handleAnimationComplete = () => {
@@ -20,16 +21,9 @@ const Loader = () => {
       <motion.div
         initial={{ scale: 0 }}
         animate={{ scale: 1 }}
-        transition={{ duration: 2 }}
+        transition={{ duration: 5 }}
       >
-        <BlurText
-          text="Frederico Huertas"
-          delay={550}
-          animateBy="words"
-          direction="bottom"
-          onAnimationComplete={handleAnimationComplete}
-          className="text-4xl"
-        />
+        <LoadingScreen />
       </motion.div>
     </motion.div>
   );
