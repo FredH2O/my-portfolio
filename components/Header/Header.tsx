@@ -18,7 +18,7 @@ const Header = () => {
 
   return (
     <motion.header
-      className="fixed z-50 w-full bg-black"
+      className="fixed z-50 w-full backdrop-blur-md bg-black/10 border-b border-white/50 shadow-lg"
       initial={{ y: 0 }}
       animate={{ y: visible ? 0 : -100 }}
       transition={{ duration: 0.3, ease: "easeInOut" }}

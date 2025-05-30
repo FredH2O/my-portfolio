@@ -10,15 +10,15 @@ const Navigation = [
     link: "/",
   },
   {
-    name: "About",
+    name: "About Me",
     link: "/about",
   },
   {
-    name: "Projects",
+    name: "Explore My Projects",
     link: "/projects",
   },
   {
-    name: "Contact",
+    name: "Drop Me a Message",
     link: "/contact",
   },
 ] as const;
