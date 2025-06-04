@@ -18,8 +18,6 @@ pnpm dev
 bun dev
 ```
 
-```
-
 Once the server is running, open your browser and head over to:
 
 👉 [http://localhost:3000](http://localhost:3000)
@@ -72,4 +70,3 @@ Feel free to fork, explore, or say hello!
 > _“First learn the meaning of what you say, and then speak.”_ – Epictetus
 
 — Fred 🌿
-```
