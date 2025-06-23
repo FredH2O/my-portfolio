@@ -44,7 +44,7 @@ const About = () => {
               Every new project is a chance to keep improving and create digital
               solutions that matter. When I’m not coding, you’ll find me gaming,
               escaping into virtual worlds to unwind. I also enjoy caring for my
-              houseplants—keeping a bit of greenery around always keeps me
+              houseplants, keeping a bit of greenery around always keeps me
               grounded. If you’re looking to build something cool together,
               let’s make it happen!
             </p>
