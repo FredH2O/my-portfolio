@@ -1,6 +1,6 @@
 # 🌟 Fred's Portfolio
 
-Welcome to my digital garden — a frontend portfolio crafted with care using [Next.js](https://nextjs.org). This space is where my code and creativity meet, built to showcase my projects, my learning journey, and the joy of building things on the web.
+Welcome to my digital garden, a frontend portfolio crafted with care using [Next.js](https://nextjs.org). This space is where my code and creativity meet, built to showcase my projects, my learning journey, and the joy of building things on the web.
 
 This project was bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and embraces the power of modern web development.
 
