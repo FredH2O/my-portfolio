@@ -28,11 +28,22 @@ You can start editing the homepage by modifying the `app/page.tsx` file. Your ch
 
 Here's the foundation upon which this portfolio is built:
 
-- ⚛️ [React](https://reactjs.org) – for a dynamic and component-driven UI
-- 🔷 [TypeScript](https://www.typescriptlang.org) – adding type safety and clarity
-- 🌐 [Next.js](https://nextjs.org) – for powerful server-side rendering and routing
-- 💨 [Tailwind CSS](https://tailwindcss.com) – for utility-first, responsive styling
-- 🚀 [Vercel](https://vercel.com) – for seamless deployment and global delivery
+🛠 Tech Stack
+This portfolio is rooted in a powerful and expressive tech stack:
+
+⚛️ React – for a dynamic and component-driven UI
+
+🔷 TypeScript – adding type safety and clarity
+
+🌐 Next.js – for powerful server-side rendering and routing
+
+💨 Tailwind CSS – for utility-first, responsive styling
+
+🎨 React Bits – for elegant, reusable UI components that elevate the user experience
+
+🌀 Framer Motion – for smooth, intuitive animations that bring the interface to life
+
+🚀 Vercel – for seamless deployment and global delivery
 
 ## ✨ Features
 
