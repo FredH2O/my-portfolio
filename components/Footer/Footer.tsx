@@ -1,6 +1,8 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className="text-white bg-black">
       <div className="container grid grid-cols-1 gap-6 px-5 m-auto lg:grid-cols-2 py-28">
@@ -39,7 +41,7 @@ const Footer = () => {
       </div>
       <div className="container font-extralight text-slate-600 text-center py-10 m-auto border-slate-700 border-t-[0.5px]">
         <p className="text-sm">
-          &copy;Copyright 2025. Made by{" "}
+          &copy;Copyright {currentYear}. Made by{" "}
           <a
             href="https://www.linkedin.com/in/fred-huertas/"
             className="italic text-sky-500 hover:text-sky-400"
