@@ -82,5 +82,17 @@
     "name": "Vercel",
     "icon": "/icons/vercel.svg",
     "alt": "Vercel Icon"
+  },
+  {
+    "id": 15,
+    "name": "WordPress",
+    "icon": "/icons/wordpress.svg",
+    "alt": "WordPress Icon"
+  },
+  {
+    "id": 16,
+    "name": "PHP",
+    "icon": "/icons/php.svg",
+    "alt": "PHP Icon"
   }
 ]

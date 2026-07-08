@@ -33,20 +33,31 @@ const About = () => {
                 ))}
               </ul>
             </div>
-            <p className="text-lg leading-relaxed text-gray-300 lg:text-left md:text-xl">
-              I’m all about crafting intuitive, user-friendly web experiences as
-              I dive into frontend development. I’ve gained hands-on experience
-              with modern web tech like HTML, CSS, JavaScript, React, and
-              Tailwind CSS, which I love for styling. I’ve also worked with Git,
-              GitHub, and explored Material-UI to level up my projects. <br />
-              <br />
-              Every new project is a chance to keep improving and create digital
-              solutions that matter. When I’m not coding, you’ll find me gaming,
-              escaping into virtual worlds to unwind. I also enjoy caring for my
-              houseplants, keeping a bit of greenery around always keeps me
-              grounded. If you’re looking to build something cool together,
-              let’s make it happen!
-            </p>
+            <div className="space-y-4">
+              <p className="text-lg leading-relaxed text-gray-300 lg:text-left md:text-xl">
+                I live in the space between React and WordPress, combining
+                modern frontend development with the flexibility of a powerful
+                CMS. I enjoy building headless solutions where WordPress manages
+                content behind the scenes while React delivers dynamic,
+                user-focused experiences. I also appreciate the traditional
+                WordPress approach when a project calls for themes, plugins, and
+                efficient content management.
+              </p>
+
+              <p className="text-lg leading-relaxed text-gray-300 lg:text-left md:text-xl">
+                Through voluntary work with HHT and Greenhouse Culture, I’ve
+                gained experience working with real content, improving websites,
+                creating event pages, and understanding how digital solutions
+                support organisations and their communities.
+              </p>
+
+              <p className="text-lg leading-relaxed text-gray-300 lg:text-left md:text-xl">
+                Outside of development, I enjoy gaming, exploring new
+                technology, and taking care of my houseplants. They remind me
+                that growth takes patience, consistency, and a little bit of
+                attention.
+              </p>
+            </div>
           </div>
         </div>
       </div>
