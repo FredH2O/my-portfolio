@@ -1,5 +1,42 @@
 [
   {
+    "title": "HHT Ireland (Volunteer Web Content Editor)",
+    "description": "Volunteer Web Content Editor for HHT Ireland, helping manage website content through WordPress while improving page quality with SEO best practices and content editing.",
+    "details": "Since January 2026, I've been volunteering as a Web Content Editor for HHT Ireland. My role involves editing and publishing website content in WordPress, improving pages using Yoast SEO, and ensuring content is clear, consistent, and easy to navigate.\n\nI work closely with the organisation through Google Drive for document sharing and regular Zoom meetings to discuss upcoming content, priorities, and website updates. The experience has strengthened my communication skills while giving me hands-on experience maintaining a live website used by real visitors.\n\nWorking on a production website has also helped me become more confident using WordPress as a content management system, following SEO best practices, and collaborating with others in a real-world environment.",
+    "url": "https://hhtireland.org/",
+    "image": "/projectsImages/hhtireland.png",
+    "keywords": [
+      "WordPress",
+      "Content Editing",
+      "Yoast SEO",
+      "SEO",
+      "Content Management",
+      "Communication",
+      "Google Drive",
+      "Zoom",
+      "Collaboration"
+    ]
+  },
+  {
+    "title": "Greenhouse Culture (Volunteer Junior Web Developer)",
+    "description": "Volunteer Junior Web Developer contributing to a WordPress website by editing themes, developing pages, managing content, and improving the site's functionality and responsive design.",
+    "details": "Since August 2026, I've been volunteering as a Junior Web Developer for Greenhouse Culture, working alongside a Principal Web Engineer to maintain and improve the organisation's WordPress website.\n\nMy role involves editing and customising WordPress themes using PHP, working on website sections such as the events page, uploading and organising older content, and improving the overall user experience across different screen sizes. I also contribute through GitHub workflows, helping with version control and collaborative development.\n\nI have gained practical experience working with WordPress as a development platform, exploring and testing plugins, understanding existing codebases, and making improvements while following real-world development practices. Working with an experienced engineer has helped me strengthen my PHP, frontend, and problem-solving skills while contributing to a live website.",
+    "url": "",
+    "image": "/projectsImages/greenhouseculture.png",
+    "keywords": [
+      "WordPress",
+      "PHP",
+      "Theme Development",
+      "Frontend Development",
+      "Responsive Design",
+      "GitHub",
+      "Docker",
+      "Plugin Management",
+      "Content Management",
+      "Collaboration"
+    ]
+  },
+  {
     "title": "Lek's Bakehouse",
     "description": "A single-page website built for a friend, showcasing artistic desserts. Built using HTML, CSS, JavaScript, React, Next.js, with Tailwind CSS for styling. Deployed on Vercel.",
     "details": "Lek's Bakehouse is a beautifully designed, single-page website created for a close friend who recently earned her certification in artistic dessert making.\n\nThis project serves as a digital portfolio, showcasing her elegant confections while reflecting modern frontend development techniques. Built using HTML, CSS, JavaScript, and React, the website is structured with Next.js and styled with Tailwind CSS to ensure a clean, minimalist aesthetic.\n\nSubtle animations, powered by Framer Motion, add life to the user experience, enhancing the visual appeal of each dessert displayed.\n\nThe site is hosted on Vercel, ensuring fast load times and responsiveness across all devices, providing an optimal user experience whether on desktop or mobile. Visitors are invited to explore a visually rich storybook of culinary craftsmanship, celebrating the art of baking at its finest.",
