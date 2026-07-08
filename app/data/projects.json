@@ -18,21 +18,20 @@
     ]
   },
   {
-    "title": "Greenhouse Culture (Volunteer Junior Web Developer)",
-    "description": "Volunteer Junior Web Developer contributing to a WordPress website by editing themes, developing pages, managing content, and improving the site's functionality and responsive design.",
-    "details": "Since August 2026, I've been volunteering as a Junior Web Developer for Greenhouse Culture, working alongside a Principal Web Engineer to maintain and improve the organisation's WordPress website.\n\nMy role involves editing and customising WordPress themes using PHP, working on website sections such as the events page, uploading and organising older content, and improving the overall user experience across different screen sizes. I also contribute through GitHub workflows, helping with version control and collaborative development.\n\nI have gained practical experience working with WordPress as a development platform, exploring and testing plugins, understanding existing codebases, and making improvements while following real-world development practices. Working with an experienced engineer has helped me strengthen my PHP, frontend, and problem-solving skills while contributing to a live website.",
-    "url": "",
+    "title": "Greenhouse Culture (Volunteer Developer)",
+    "description": "Volunteer Web Developer working with WordPress, PHP, theme editing, and website improvements alongside an experienced engineering team.",
+    "details": "Since August 2026, I've been volunteering as a Web Developer for Greenhouse Culture, working alongside a Principal Web Engineer to maintain and improve their WordPress website.\n\nMy work includes editing WordPress themes using PHP, improving pages, developing the events section, uploading older content, testing plugins, and helping maintain responsive design across devices. I also contribute through GitHub workflows and use Docker for local development.\n\nThis experience has helped me build confidence working with real-world WordPress development, existing codebases, version control, and collaborative workflows.",
+    "url": "https://greenhouseculture.ie/",
     "image": "/projectsImages/greenhouseculture.png",
     "keywords": [
       "WordPress",
       "PHP",
-      "Theme Development",
-      "Frontend Development",
-      "Responsive Design",
+      "Theme Editing",
       "GitHub",
       "Docker",
-      "Plugin Management",
-      "Content Management",
+      "Responsive Design",
+      "Plugins",
+      "Frontend Development",
       "Collaboration"
     ]
   },
