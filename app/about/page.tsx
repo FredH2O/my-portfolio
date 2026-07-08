@@ -6,7 +6,7 @@ const rolesAndInterests = [
   "Frontend Developer",
   "Gamer",
   "Houseplant Enthusiast",
-  "Aquatic Life Specialist",
+  "WordPress Developer",
 ];
 
 const About = () => {
@@ -37,9 +37,8 @@ const About = () => {
               I’m all about crafting intuitive, user-friendly web experiences as
               I dive into frontend development. I’ve gained hands-on experience
               with modern web tech like HTML, CSS, JavaScript, React, and
-              Tailwind CSS, which I love for styling. I’ve also worked with
-              Bootstrap, Git, GitHub, and explored Material-UI to level up my
-              projects. <br />
+              Tailwind CSS, which I love for styling. I’ve also worked with Git,
+              GitHub, and explored Material-UI to level up my projects. <br />
               <br />
               Every new project is a chance to keep improving and create digital
               solutions that matter. When I’m not coding, you’ll find me gaming,
