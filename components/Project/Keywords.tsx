@@ -1,16 +1,26 @@
-import KEYWORD_BG from "@/app/utils/keywordsColor.js";
-
 const Keywords = ({ selectedProject }) => {
   return (
     <div className="py-5">
-      <h2 className="pb-3 font-extralight">Tech Stack</h2>
-      <ul className="flex flex-wrap justify-center gap-1">
+      <h2 className="mb-3 text-sm uppercase tracking-widest text-slate-500">
+        Tech Stack
+      </h2>
+      <ul className="flex flex-wrap gap-2">
         {selectedProject.keywords.map((word, index) => (
           <li
-            className={`px-3 font-semibold text-sm italic py-1 border rounded border-slate-400 text-slate-900 ${KEYWORD_BG(
-              word
-            )}`}
             key={index}
+            className="
+              rounded-full
+              border
+              border-slate-700
+              px-3
+              py-1
+              text-xs
+              font-medium
+              text-slate-300
+              transition-colors
+              hover:border-slate-500
+              hover:text-white
+            "
           >
             {word}
           </li>
