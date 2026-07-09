@@ -99,7 +99,7 @@ const MainProjectCard = () => {
             alt={selectedProject.title}
             fill
             className="
-              object-cover
+              object-contain
             "
           />
         </div>

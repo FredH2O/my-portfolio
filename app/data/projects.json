@@ -1,5 +1,24 @@
 [
   {
+    "title": "Wolfgang Digital Awards Page (Technical Test)",
+    "description": "Front-end technical assessment recreating Wolfgang Digital's awards page for a junior web developer role, built with React and Framer Motion, followed by a live presentation and interview.",
+    "details": "As part of a job application process, I was given a take-home test to recreate Wolfgang Digital's awards page as closely as possible within a limited timeframe, followed by a 15-minute interview and in-person presentation of my work.\n\nI rebuilt the page using React and Vite, styling it with Tailwind CSS and adding animations and micro-interactions with Framer Motion. The build included a responsive layout, an animated marquee footer, hover image previews, award filtering, and a contact form UI, using Swiper.js for carousels and Lucide/React Icons for iconography.\n\nThe project pushed me to closely study and reproduce real-world agency-level UI details, from smooth transitions to layout precision, while working under a tight deadline. It strengthened my component structure, responsive design, and animation skills, and gave me practical experience presenting technical work directly to a hiring team.",
+    "url": "https://wolfgang-awards-page.vercel.app",
+    "image": "/projectsImages/wolfgang-awards.png",
+    "keywords": [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Swiper.js",
+      "Responsive Design",
+      "UI Animation",
+      "Technical Interview",
+      "GitHub",
+      "Vercel"
+    ]
+  },
+  {
     "title": "HHT Ireland (Volunteer Web Content Editor)",
     "description": "Volunteer Web Content Editor for HHT Ireland, helping manage website content through WordPress while improving page quality with SEO best practices and content editing.",
     "details": "Since January 2026, I've been volunteering as a Web Content Editor for HHT Ireland. My role involves editing and publishing website content in WordPress, improving pages using Yoast SEO, and ensuring content is clear, consistent, and easy to navigate.\n\nI work closely with the organisation through Google Drive for document sharing and regular Zoom meetings to discuss upcoming content, priorities, and website updates. The experience has strengthened my communication skills while giving me hands-on experience maintaining a live website used by real visitors.\n\nWorking on a production website has also helped me become more confident using WordPress as a content management system, following SEO best practices, and collaborating with others in a real-world environment.",
@@ -36,6 +55,23 @@
     ]
   },
   {
+    "title": "Zenscape (Japanese Garden Website)",
+    "description": "Personal project practicing modern front-end development, a Japanese-garden-themed website built with Next.js, TypeScript, React, and Tailwind CSS, with a focus on clean UI/UX and interactive design.",
+    "details": "Zenscape is a personal project I built to sharpen my front-end skills and explore modern UI/UX principles through a Japanese garden themed site. I used Next.js with the app directory structure, TypeScript for type safety, and Tailwind CSS for responsive, utility-first styling.\n\nI brought the interface to life with Framer Motion for smooth animations and micro-interactions, and used ReactBits for prebuilt, customizable components to speed up UI development. I also worked with next/font for font optimization and structured the project around a modular, reusable component architecture.\n\nThis project let me experiment more freely with front-end techniques than a client or test project would allow, from interactive design patterns to a fully cohesive app structure, and pushed me to think about clean UI/UX design as much as functionality. It's one of the builds I'm most proud of for how complete and polished the end result feels.",
+    "url": "https://zenscape-rho.vercel.app",
+    "image": "/projectsImages/zenscape.png",
+    "keywords": [
+      "Next.js",
+      "TypeScript",
+      "React",
+      "Tailwind CSS",
+      "Framer Motion",
+      "UI/UX Design",
+      "Vercel",
+      "GitHub"
+    ]
+  },
+  {
     "title": "Lek's Bakehouse",
     "description": "A single-page website built for a friend, showcasing artistic desserts. Built using HTML, CSS, JavaScript, React, Next.js, with Tailwind CSS for styling. Deployed on Vercel.",
     "details": "Lek's Bakehouse is a beautifully designed, single-page website created for a close friend who recently earned her certification in artistic dessert making.\n\nThis project serves as a digital portfolio, showcasing her elegant confections while reflecting modern frontend development techniques. Built using HTML, CSS, JavaScript, and React, the website is structured with Next.js and styled with Tailwind CSS to ensure a clean, minimalist aesthetic.\n\nSubtle animations, powered by Framer Motion, add life to the user experience, enhancing the visual appeal of each dessert displayed.\n\nThe site is hosted on Vercel, ensuring fast load times and responsiveness across all devices, providing an optimal user experience whether on desktop or mobile. Visitors are invited to explore a visually rich storybook of culinary craftsmanship, celebrating the art of baking at its finest.",
@@ -50,6 +86,32 @@
       "NPM",
       "framer-motion",
       "NextJS"
+    ]
+  },
+  {
+    "title": "Moonway Travels",
+    "description": "A single-page travel application showcasing hotels with information fetched dynamically. Built with React, Tailwind CSS, and Axios.",
+    "details": "Moonway Travels is a sleek and responsive single-page travel application designed to give users a quick, elegant overview of hotels and accommodations. The project was built using React for the interactive UI, Tailwind CSS for fast and consistent styling, and Axios to dynamically fetch hotel data from an external API. I designed the layout to be intuitive and user-friendly, with clean sections showcasing hotel names, descriptions, and images. Each part of the UI updates smoothly without full page reloads, highlighting my understanding of component-based architecture and asynchronous JavaScript.\n\nThis website was originally built as part of a frontend development test for 'Sunway Travels.' Although I wasn't selected for the role, it turned into a valuable experience—I learned a tremendous amount in just a few days. It was a time trial challenge that pushed me to work quickly, think clearly, and execute cleanly under pressure. I'm proud of how much I accomplished in a short span, and this project remains a key milestone in my learning journey.",
+    "url": "https://fredh2o.github.io/moonway-travel/",
+    "image": "/projectsImages/moonway-travel-image.png",
+    "keywords": ["HTML", "CSS", "JavaScript", "React", "Axios"]
+  },
+  {
+    "title": "Pets Ireland Website",
+    "description": "WordPress website for a pet adoption charity, combining custom PHP templates with Elementor page building for flexible, easy-to-manage content.",
+    "details": "Pets Ireland is a WordPress site built locally with LocalWP to practice a real-world content management workflow for a pet adoption organisation. I used an Astra child theme with custom PHP templates for dynamic pages like Adoption Tips, Event Archive, and Pet Archive, pulling content with WP_Query, while using Elementor for static informational pages and the Adoption Spotlight page.\n\nI set up Custom Post Types and Advanced Custom Fields so admins can manage pet listings and events directly from the WordPress dashboard, added a Contact Form 7 form, and built a fully custom footer through the child theme to match the site's branding. I also experimented with Intercom chatbot flows to explore basic automated user support.\n\nThe project deepened my understanding of separating dynamic PHP-driven content from visual Elementor layouts, structuring layouts with Flexbox inside Elementor containers, and building admin-friendly content structures with Custom Post Types.",
+    "url": "https://github.com/FredH2O/pets-ireland",
+    "image": "/projectsImages/pets-ireland.png",
+    "keywords": [
+      "WordPress",
+      "PHP",
+      "Elementor",
+      "Advanced Custom Fields",
+      "Custom Post Types",
+      "Contact Form 7",
+      "Astra",
+      "WP_Query",
+      "LocalWP"
     ]
   },
   {
@@ -68,14 +130,6 @@
       "TailwindCSS",
       "NextJS"
     ]
-  },
-  {
-    "title": "Moonway Travels",
-    "description": "A single-page travel application showcasing hotels with information fetched dynamically. Built with React, Tailwind CSS, and Axios.",
-    "details": "Moonway Travels is a sleek and responsive single-page travel application designed to give users a quick, elegant overview of hotels and accommodations. The project was built using React for the interactive UI, Tailwind CSS for fast and consistent styling, and Axios to dynamically fetch hotel data from an external API. I designed the layout to be intuitive and user-friendly, with clean sections showcasing hotel names, descriptions, and images. Each part of the UI updates smoothly without full page reloads, highlighting my understanding of component-based architecture and asynchronous JavaScript.\n\nThis website was originally built as part of a frontend development test for 'Sunway Travels.' Although I wasn't selected for the role, it turned into a valuable experience—I learned a tremendous amount in just a few days. It was a time trial challenge that pushed me to work quickly, think clearly, and execute cleanly under pressure. I'm proud of how much I accomplished in a short span, and this project remains a key milestone in my learning journey.",
-    "url": "https://fredh2o.github.io/moonway-travel/",
-    "image": "/projectsImages/moonway-travel-image.png",
-    "keywords": ["HTML", "CSS", "JavaScript", "React", "Axios"]
   },
   {
     "title": "Café Bianco",
