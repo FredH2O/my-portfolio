@@ -94,6 +94,7 @@ const Card = ({ project, index, onSelect }: any) => {
         <Image
           src={project.image}
           fill
+          sizes="(min-width: 1280px) 33vw, (min-width: 768px) 50vw, 100vw"
           alt={project.title}
           className="
             object-cover

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { useScroll, useMotionValueEvent, motion } from "framer-motion";
 import Navbar from "./Navbar";
 
@@ -12,8 +12,6 @@ const Header = () => {
   useMotionValueEvent(scrollY, "change", (latest) => {
     setVisible(latest < lastY || latest < 50);
     setLastY(latest);
-    console.log(`latest value ${latest}`);
-    console.log(`lastY value ${lastY}`);
   });
 
   return (

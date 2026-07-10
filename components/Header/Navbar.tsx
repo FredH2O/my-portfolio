@@ -26,7 +26,7 @@ const Navigation = [
 const Navbar = () => {
   const [isMenu, setIsMenu] = useState<boolean>(false);
 
-  const handleClick = () => {
+  const toggleMenu = () => {
     setIsMenu((prev) => !prev);
   };
 
@@ -38,6 +38,8 @@ const Navbar = () => {
           alt="Fred's Logo"
           width={120}
           height={120}
+          priority
+          className="h-10 w-auto sm:h-8"
         />
       </div>
 
@@ -55,7 +57,7 @@ const Navbar = () => {
       </div>
 
       <div className="md:hidden">
-        <BurgerIcon onClick={handleClick} />
+        <BurgerIcon onClick={toggleMenu} isMenu={isMenu} />
         <ul
           className={`absolute p-20 h-[300px] mt-18 border-y space-y-5 md:hidden transition-transform ease-in-out duration-150 ${
             isMenu ? "translate-x-0" : "-translate-x-full"
@@ -63,7 +65,9 @@ const Navbar = () => {
         >
           {Navigation.map((title) => (
             <li key={title.name}>
-              <Link href={title.link}>{title.name}</Link>
+              <Link href={title.link} onClick={() => setIsMenu(false)}>
+                {title.name}
+              </Link>
             </li>
           ))}
         </ul>
