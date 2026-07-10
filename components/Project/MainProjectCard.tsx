@@ -31,11 +31,7 @@ const MainProjectCard = () => {
   }, [selectedProject]);
 
   if (!selectedProject) {
-    return (
-      <p className="text-center italic text-slate-400 pb-10">
-        Click a project to view details.
-      </p>
-    );
+    return null;
   }
 
   return (
@@ -81,6 +77,7 @@ const MainProjectCard = () => {
             backdrop-blur
             transition
             hover:bg-red-500
+            cursor-pointer
           "
         >
           <X size={25} />

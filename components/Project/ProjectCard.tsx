@@ -175,6 +175,7 @@ const Card = ({ project, index, onSelect }: any) => {
             text-slate-200
             transition
             hover:border-slate-200
+            cursor-pointer
           "
         >
           View Case Study

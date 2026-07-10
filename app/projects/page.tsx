@@ -76,7 +76,7 @@ const Projects = () => {
             {/* Featured project */}
             <div className="mb-16">
               <p className="mb-6 text-sm uppercase tracking-widest text-slate-500">
-                Selected work
+                Experience & Project
               </p>
 
               <MainProjectCard />
