@@ -39,10 +39,10 @@ const MainProjectCard = () => {
       onClick={closeProject}
       className="
         fixed inset-0 z-50 
-        flex items-center justify-center
+        flex items-start justify-center
         bg-black/80 
         backdrop-blur-md
-        p-4
+        p-4 py-22
         overflow-y-auto
       "
     >

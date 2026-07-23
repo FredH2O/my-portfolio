@@ -1,5 +1,30 @@
 [
   {
+    "title": "DriveFlow — Headless WordPress + React Garage Management Platform",
+    "description": "Full-stack web application for a Japanese-owned garage in Dublin, combining a custom WordPress backend with a modern React frontend. Built as a hands-on learning project to master WordPress development, ACF, REST API integration, and production React patterns.",
+    "details": "DriveFlow is a bilingual (English/Japanese) garage website and booking platform built as a real-world learning project combining headless WordPress and React. The backend runs on WordPress with custom plugin architecture (driveflow-core), ACF for custom post types (Services, Bookings), and a RESTful API exposing data to the frontend.\n\nThe frontend is a React + Vite application styled with Tailwind CSS v4, featuring a minimal Japanese aesthetic with purple accent branding. The stack includes advanced topics like Application Passwords authentication, server-side Authorization header handling, custom post type registration, and API integration patterns. The project incorporates bilingual content management, dynamic service listings with custom field data, and booking functionality.\n\nBuilt on LocalWP for local development with a carefully structured Git workflow tracking only wp-content, this project deepened my understanding of WordPress plugin architecture, REST API security, authentication flows, React component design, and full-stack debugging across server and client layers.",
+    "url": "https://driveflow-frontend.vercel.app",
+    "image": "/projectsImages/driveflow.png",
+    "repository": "https://github.com/FredH2O/driveflow-backend",
+    "keywords": [
+      "WordPress",
+      "React",
+      "Vite",
+      "Tailwind CSS v4",
+      "ACF (Advanced Custom Fields)",
+      "REST API",
+      "Application Passwords",
+      "Custom Post Types",
+      "Headless CMS",
+      "Bilingual Content",
+      "LocalWP",
+      "Server Authentication",
+      "Git/GitHub",
+      "Full-Stack Development",
+      "Component Architecture"
+    ]
+  },
+  {
     "title": "Wolfgang Digital Awards Page (Technical Test)",
     "description": "Front-end technical assessment recreating Wolfgang Digital's awards page for a junior web developer role, built with React and Framer Motion, followed by a live presentation and interview.",
     "details": "As part of a job application process, I was given a take-home test to recreate Wolfgang Digital's awards page as closely as possible within a limited timeframe, followed by a 15-minute interview and in-person presentation of my work.\n\nI rebuilt the page using React and Vite, styling it with Tailwind CSS and adding animations and micro-interactions with Framer Motion. The build included a responsive layout, an animated marquee footer, hover image previews, award filtering, and a contact form UI, using Swiper.js for carousels and Lucide/React Icons for iconography.\n\nThe project pushed me to closely study and reproduce real-world agency-level UI details, from smooth transitions to layout precision, while working under a tight deadline. It strengthened my component structure, responsive design, and animation skills, and gave me practical experience presenting technical work directly to a hiring team.",
