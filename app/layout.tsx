@@ -7,23 +7,26 @@ import AppWrapper from "@/components/AppWrapper/AppWrapper";
 
 const dm_sans = DM_Sans({
   subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  weight: ["400", "600", "700"],
   variable: "--font-dm_sans",
+  display: "swap",
 });
 
 const inter = Inter({
   subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  weight: ["400", "500", "600"],
   variable: "--font-inter",
+  display: "swap",
 });
 
 const poppins = Poppins({
   subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  weight: ["400", "600", "700"],
   variable: "--font-poppins",
+  display: "swap",
 });
 
-export const viewport = "width=device-width, initial-scale=1.0";
+export const viewport = { width: "device-width", initialScale: 1 };
 
 export const metadata = {
   title: "Frederico's Portfolio | Frontend Developer & Web Specialist",
@@ -32,11 +35,12 @@ export const metadata = {
   keywords:
     "frontend developer, web developer, portfolio, React, Next.js, TailwindCSS, HTML, CSS, web design, frontend specialist",
   robots: "index, follow",
+  metadataBase: new URL("https://fredcodes.com/"),
   openGraph: {
     title: "Frederico's Portfolio - Web Developer & Frontend Specialist",
     description:
       "Explore Frederico's portfolio showcasing frontend development skills, including projects in HTML, CSS, JavaScript, React, Next.js, and more.",
-    url: "",
+    url: "https://fredcodes.com/",
     image: "/images/logo-full.png",
     site_name: "Frederico's Portfolio",
   },
@@ -77,18 +81,6 @@ export default function RootLayout({ children }) {
           href="/android-chrome-512x512.png"
         />
         <link rel="manifest" href="/site.webmanifest" />
-        <meta name="description" content={metadata.description} />
-        <meta name="keywords" content={metadata.keywords} />
-        <meta name="robots" content={metadata.robots} />
-        <meta name="viewport" content={viewport} />
-        <meta property="og:title" content={metadata.openGraph.title} />
-        <meta
-          property="og:description"
-          content={metadata.openGraph.description}
-        />
-        <meta property="og:url" content={metadata.openGraph.url} />
-        <meta property="og:image" content={metadata.openGraph.image} />
-        <meta property="og:site_name" content={metadata.openGraph.site_name} />
       </head>
       <body
         className={`${poppins.variable} ${dm_sans.variable} ${inter.variable} relative antialiased`}
