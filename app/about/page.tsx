@@ -10,7 +10,7 @@ const rolesAndInterests = [
 const About = () => {
   return (
     <FadeInSection>
-      <div className="container mx-auto flex min-h-screen items-center px-6">
+      <div className="container mx-auto flex min-h-screen items-center px-6 pt-16 lg:pt-0">
         <div className="grid items-center gap-10 lg:grid-cols-2">
           {/* Skills Logos */}
           <Skills className={"order-2 lg:order-1"} />
