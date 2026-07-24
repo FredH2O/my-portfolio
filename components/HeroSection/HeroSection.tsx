@@ -1,7 +1,13 @@
-import Threads from "./Threads";
+"use client";
+import dynamic from "next/dynamic";
 import FadeInSection from "../animations/FadeInSection";
 import Link from "next/link";
 import Image from "next/image";
+
+const Threads = dynamic(() => import("./Threads"), {
+  loading: () => <div className="absolute w-full h-full bg-black opacity-25" />,
+  ssr: false,
+});
 
 const HeroSection = () => {
   return (
