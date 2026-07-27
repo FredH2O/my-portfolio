@@ -50,7 +50,10 @@ const Navbar = () => {
               className="transition-all duration-200 cursor-pointer hover:text-sky-500"
               key={name}
             >
-              <Link href={link}>{name}</Link>
+              <Link href={link} className="relative group">
+                {name}
+                <span className="absolute left-0 -bottom-1 h-[1px] w-0 bg-current transition-all duration-300 group-hover:w-full" />
+              </Link>
             </li>
           ))}
         </ul>
