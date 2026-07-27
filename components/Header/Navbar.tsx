@@ -39,18 +39,18 @@ const Navbar = () => {
           width={120}
           height={120}
           priority
-          className="h-10 w-auto sm:h-8"
+          className="h-6 w-auto sm:h-7"
         />
       </div>
 
       <div className="">
         <ul className="hidden space-x-6 md:flex">
-          {Navigation.map((title) => (
+          {Navigation.map(({ name, link }) => (
             <li
               className="transition-all duration-200 cursor-pointer hover:text-sky-500"
-              key={title.name}
+              key={name}
             >
-              <Link href={title.link}>{title.name}</Link>
+              <Link href={link}>{name}</Link>
             </li>
           ))}
         </ul>
