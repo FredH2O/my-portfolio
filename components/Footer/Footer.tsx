@@ -1,7 +1,25 @@
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
+
+  const socials = [
+    {
+      name: "GitHub",
+      icon: <FaGithub />,
+      href: "https://github.com/FredH2O",
+    },
+    {
+      name: "LinkedIn",
+      icon: <FaLinkedin />,
+      href: "https://www.linkedin.com/in/fred-huertas/",
+    },
+    {
+      name: "Instagram",
+      icon: <FaInstagram />,
+      href: "https://github.com/FredH2O",
+    },
+  ];
 
   return (
     <footer className="text-white bg-black">
@@ -11,10 +29,9 @@ const Footer = () => {
             Frederico Huertas
           </h2>
           <p className="max-w-md text-sm text-slate-400">
-            A Junior Frontend Developer dedicated to building responsive and
-            user-friendly websites and web applications, combining creativity
-            and technical skills to enhance the overall user experience and
-            interface.
+            Frontend developer building things with React and WordPress,
+            currently hunting for a junior role where I can keep learning on the
+            job.
           </p>
         </div>
         <div className="flex flex-col lg:items-end space-y-7">
@@ -22,20 +39,18 @@ const Footer = () => {
             Socials
           </h2>
           <div className="flex gap-5 text-3xl text-slate-400">
-            <a
-              className="hover:text-sky-500"
-              href="https://github.com/FredH2O"
-              target="_blank"
-            >
-              <FaGithub />
-            </a>
-            <a
-              className="hover:text-sky-500"
-              href="https://www.linkedin.com/in/fred-huertas/"
-              target="_blank"
-            >
-              <FaLinkedin />
-            </a>
+            {socials.map(({ name, icon, href }) => (
+              <a
+                key={name}
+                aria-label={name}
+                className="transition-colors hover:text-slate-200"
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {icon}
+              </a>
+            ))}
           </div>
         </div>
       </div>
@@ -44,7 +59,9 @@ const Footer = () => {
           &copy;Copyright {currentYear}. Made by{" "}
           <a
             href="https://www.linkedin.com/in/fred-huertas/"
-            className="italic text-sky-500 hover:text-sky-400"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="italic text-slate-300 hover:text-slate-100 transition-colors"
           >
             Fred
           </a>
