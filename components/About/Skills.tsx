@@ -17,13 +17,13 @@ const Skills = ({ className }: ClassProp) => {
         <Tooltip.Provider key={icon.id} delayDuration={50}>
           <Tooltip.Root>
             <Tooltip.Trigger asChild>
-              <div className="flex justify-center w-auto h-auto p-1 transition duration-300 ease-in-out border-2 rounded cursor-pointer bg-slate-800 border-slate-700 hover:border-sky-500 active:border-sky-500 active:duration-500">
+              <div className="flex h-16 w-16 items-center justify-center rounded border-2 border-slate-700 bg-slate-800 p-1 transition duration-300 ease-in-out hover:border-sky-500 active:border-sky-500">
                 <Image
                   src={icon.icon}
                   alt={icon.alt}
-                  title={icon.name}
                   width={50}
                   height={50}
+                  className="w-auto h-auto"
                 />
               </div>
             </Tooltip.Trigger>
