@@ -2,6 +2,7 @@ import { Inter, Poppins, DM_Sans } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
+import ChatWidget from "@/components/Chat/ChatWidget";
 import { Analytics } from "@vercel/analytics/react";
 import AppWrapper from "@/components/AppWrapper/AppWrapper";
 
@@ -91,6 +92,7 @@ export default function RootLayout({ children }) {
           <Footer />
         </AppWrapper>
         <Analytics />
+        <ChatWidget />
       </body>
     </html>
   );
