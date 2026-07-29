@@ -10,7 +10,14 @@ type Message = { role: "user" | "assistant"; text: string };
 const ChatWidget = () => {
   const [open, setOpen] = useState(false);
   const [messages, setMessages] = useState<Message[]>([
-    { role: "assistant", text: "Hey! Ask me about Fred's projects or skills." },
+    {
+      role: "assistant",
+      text: `👋 Hi! I'm Fred's AI assistant.
+
+I can answer questions about his projects, skills, and experience.
+
+What would you like to know?`,
+    },
   ]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
@@ -53,7 +60,7 @@ const ChatWidget = () => {
             initial={{ opacity: 0, y: 20, scale: 0.95 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 20, scale: 0.95 }}
-            className="mb-4 flex h-96 w-80 flex-col overflow-hidden rounded-2xl border border-slate-800 bg-slate-950 shadow-2xl"
+            className="mb-4 flex h-96 w-96 flex-col overflow-hidden rounded-2xl border border-slate-800 bg-slate-950 shadow-2xl"
           >
             <div className="border-b border-slate-800 p-4">
               <h3 className="text-sm font-semibold text-white">
@@ -65,13 +72,19 @@ const ChatWidget = () => {
               {messages.map((m, i) => (
                 <div
                   key={i}
-                  className={`max-w-[85%] rounded-lg px-3 py-2 text-sm ${
-                    m.role === "user"
-                      ? "ml-auto bg-sky-500 text-white"
-                      : "bg-slate-800 text-slate-200"
-                  }`}
+                  className={`flex ${m.role === "user" ? "justify-end" : "justify-start"}`}
                 >
-                  <ReactMarkdown>{m.text}</ReactMarkdown>
+                  <div
+                    className={`max-w-[85%] px-3 py-2 text-sm ${
+                      m.role === "user"
+                        ? "rounded-tr-2xl rounded-tl-2xl rounded-bl-2xl bg-sky-500 text-white"
+                        : "rounded-tr-2xl rounded-tl-2xl rounded-br-2xl bg-slate-800 text-slate-200"
+                    }`}
+                  >
+                    <article className="prose prose-invert prose-sm max-w-none">
+                      <ReactMarkdown>{m.text}</ReactMarkdown>
+                    </article>
+                  </div>
                 </div>
               ))}
               {loading && (

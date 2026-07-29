@@ -29,9 +29,8 @@ const Footer = () => {
             Frederico Huertas
           </h2>
           <p className="max-w-md text-sm text-slate-400">
-            Frontend developer building things with React and WordPress,
-            currently hunting for a junior role where I can keep learning on the
-            job.
+            Web developer building things with React and WordPress, currently
+            hunting for a junior role where I can keep learning on the job.
           </p>
         </div>
         <div className="flex flex-col lg:items-end space-y-7">

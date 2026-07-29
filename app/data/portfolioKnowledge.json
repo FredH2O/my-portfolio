@@ -1,0 +1,186 @@
+{
+  "about": {
+    "name": "Frederico Huertas",
+    "title": "Frontend Developer",
+    "summary": "Career-changing web developer with hands-on experience building React frontends and custom WordPress solutions. After more than a decade in logistics and operations, I transitioned into web development through self-directed learning and volunteer work, contributing to live websites for charities and community organisations. Particularly interested in the intersection of React, WordPress, and headless CMS architecture."
+  },
+  "skills": {
+    "frontend": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Next.js",
+      "Tailwind CSS"
+    ],
+    "backend": ["WordPress", "PHP"],
+    "tools": ["Git", "GitHub", "Vercel", "Visual Studio Code", "LocalWP"]
+  },
+  "experience": [
+    {
+      "company": "HHT Ireland",
+      "role": "Volunteer Web Content Editor",
+      "period": "Jan 2026 – Present",
+      "via": "Dublin City Council",
+      "summary": "Manages and publishes content on a live WordPress/Divi website for a registered Irish charity, contributing to content updates and SEO improvements.",
+      "highlights": [
+        "Publishes and maintains content on a live production WordPress/Divi website.",
+        "Creates SEO-optimised blog posts using Yoast SEO, including focus keyphrases, meta descriptions, slugs and excerpts.",
+        "Updates patient stories, hero images, page titles and permalinks while following production best practices.",
+        "Works with sensitive health-related content and collaborates with the charity's founder on content planning and publishing."
+      ],
+      "technologies": ["WordPress", "Divi", "Yoast SEO", "SEO"]
+    },
+    {
+      "company": "Greenhouse Culture",
+      "role": "Volunteer Web Developer",
+      "period": "Aug 2025 – Present",
+      "via": "Dublin City Council",
+      "summary": "Builds and customises WordPress themes using PHP while collaborating with a senior developer in an agency-style workflow.",
+      "highlights": [
+        "Builds and customises WordPress themes using PHP and the WordPress template hierarchy.",
+        "Develops dynamic, responsive event and content templates.",
+        "Migrated a drag-and-drop event gallery from jQuery to vanilla JavaScript using SortableJS.",
+        "Diagnosed and resolved PHP meta box callback issues during development.",
+        "Maintains local development environments with Docker and Local by Flywheel.",
+        "Uses Git and GitHub for version control and team collaboration."
+      ],
+      "technologies": [
+        "PHP",
+        "WordPress",
+        "JavaScript",
+        "SortableJS",
+        "Docker",
+        "Local by Flywheel",
+        "Git",
+        "GitHub"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "DriveFlow",
+      "type": "Full-stack web application",
+      "summary": "Headless WordPress and React garage management platform built for a Japanese-owned garage in Dublin. Combines a custom WordPress backend with a React frontend, focusing on REST API integration, custom post types, authentication, and modern frontend development.",
+      "technologies": [
+        "WordPress",
+        "React",
+        "Vite",
+        "Tailwind CSS",
+        "Advanced Custom Fields",
+        "REST API",
+        "Custom Post Types",
+        "Headless CMS",
+        "LocalWP",
+        "Git/GitHub"
+      ],
+      "url": "https://driveflow-frontend.vercel.app"
+    },
+    {
+      "title": "Wolfgang Digital Awards Page",
+      "type": "Frontend technical assessment",
+      "summary": "Frontend recreation of Wolfgang Digital's awards page built as part of a junior web developer technical test. Focused on responsive design, animations, UI accuracy, and presenting technical work during an interview.",
+      "technologies": [
+        "React",
+        "Vite",
+        "Tailwind CSS",
+        "Framer Motion",
+        "Swiper.js",
+        "Responsive Design",
+        "UI Animation",
+        "Vercel"
+      ],
+      "url": "https://wolfgang-awards-page.vercel.app"
+    },
+    {
+      "title": "HHT Ireland",
+      "type": "Volunteer web content project",
+      "summary": "Volunteer Web Content Editor role maintaining a live WordPress website for an Irish charity. Involves content publishing, SEO improvements, page updates, and working collaboratively with the organisation.",
+      "technologies": [
+        "WordPress",
+        "Divi",
+        "Yoast SEO",
+        "SEO",
+        "Content Management",
+        "Google Drive",
+        "Collaboration"
+      ],
+      "url": "https://hhtireland.org/"
+    },
+    {
+      "title": "Greenhouse Culture",
+      "type": "Volunteer web development project",
+      "summary": "Volunteer Web Developer role working with WordPress, PHP, and website improvements alongside an experienced engineering team. Focused on theme customisation, frontend improvements, plugins, and collaborative development workflows.",
+      "technologies": [
+        "WordPress",
+        "PHP",
+        "GitHub",
+        "Docker",
+        "Responsive Design",
+        "Plugins",
+        "Frontend Development",
+        "Collaboration"
+      ],
+      "url": "https://greenhouseculture.ie/"
+    },
+    {
+      "title": "Zenscape",
+      "type": "Frontend web application",
+      "summary": "Japanese garden themed website built to practice modern frontend development, focusing on clean UI/UX, animations, and reusable component architecture.",
+      "technologies": [
+        "Next.js",
+        "TypeScript",
+        "React",
+        "Tailwind CSS",
+        "Framer Motion",
+        "UI/UX Design",
+        "Vercel",
+        "GitHub"
+      ],
+      "url": "https://zenscape-rho.vercel.app"
+    },
+    {
+      "title": "Lek's Bakehouse",
+      "type": "Business website",
+      "summary": "Single-page website created for a friend's dessert business, showcasing artistic desserts through a clean, responsive design with modern frontend techniques.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Next.js",
+        "Tailwind CSS",
+        "Framer Motion",
+        "Vercel"
+      ],
+      "url": "https://leks-bakehouse.vercel.app/"
+    }
+  ],
+  "education": [
+    {
+      "name": "Cenit College",
+      "course": "Web Development",
+      "year": "2023-2024"
+    },
+    {
+      "name": "eCollege",
+      "course": "Responsive Web Design",
+      "year": "2022-2023"
+    },
+    {
+      "name": "St. Joseph's Secondary School",
+      "course": "Leaving Certificate",
+      "year": "2005-2010"
+    }
+  ],
+  "hobbies": [
+    {
+      "name": "Gaming",
+      "description": "Enjoys gaming, including action RPGs and strategy-focused games."
+    },
+    {
+      "name": "Indoor plant care",
+      "description": "Enjoys caring for indoor plants and learning about plant growth."
+    }
+  ]
+}

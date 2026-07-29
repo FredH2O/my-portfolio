@@ -2,7 +2,7 @@
 
 import * as Tooltip from "@radix-ui/react-tooltip";
 import Image from "next/image";
-import icons from "./Skills.json";
+import icons from "@/app/data/skills.json";
 
 type ClassProp = {
   className: string;

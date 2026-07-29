@@ -1,20 +1,23 @@
 import { NextRequest, NextResponse } from "next/server";
-import projects from "@/app/data/projects.json";
+import portfolioKnowlodge from "@/app/data/portfolioKnowledge.json";
 
 export async function POST(req: NextRequest) {
   const { message } = await req.json();
 
-  const projectContext = projects
-    .map(
-      (p: any) =>
-        `Title: ${p.title}\nDescription: ${p.description}\nTech: ${p.keywords.join(", ")}\nDetails: ${p.details}`,
-    )
-    .join("\n\n---\n\n");
+  const portfolioContext = JSON.stringify(portfolioKnowlodge, null, 2);
 
-  const systemPrompt = `You are an assistant on Frederico Huertas's developer portfolio. Answer visitor questions about his projects using ONLY the context below. Be concise and friendly. If asked something unrelated to his work, politely redirect to his projects or skills.
+  const systemPrompt = `
+You are "Fred's Assistant".
 
-PROJECTS:
-${projectContext}`;
+Use this portfolio information to answer questions:
+
+${portfolioContext}
+
+Rules:
+- Speak about Fred in third person.
+- Do not invent information.
+- If something is not provided, say you don't know.
+`;
 
   try {
     const response = await fetch(
