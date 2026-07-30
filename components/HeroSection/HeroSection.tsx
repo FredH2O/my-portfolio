@@ -37,15 +37,15 @@ const HeroSection = () => {
                 />
                 <div className="flex flex-col text-center justify-center items-center px-5 gap-2">
                   <h2 className="text-4xl font-bold lg:text-5xl">
-                    Crafting and growing,{" "}
+                    Building the web,{" "}
                     <span className="italic text-sky-500">
-                      one line of code at a time
+                      one project at a time
                     </span>
                     .
                   </h2>
                   <p className="text-lg font-semibold text-gray-300">
-                    Web developer exploring frontend technologies and creating
-                    clean, responsive websites.
+                    Web developer passionate about creating fast, responsive,
+                    and user-friendly websites.
                   </p>
                 </div>
               </div>

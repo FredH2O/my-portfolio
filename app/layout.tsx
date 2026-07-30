@@ -1,4 +1,4 @@
-import { Inter, Poppins, DM_Sans } from "next/font/google";
+import { DM_Sans, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
@@ -6,24 +6,15 @@ import ChatWidget from "@/components/Chat/ChatWidget";
 import { Analytics } from "@vercel/analytics/react";
 import AppWrapper from "@/components/AppWrapper/AppWrapper";
 
+const spaceGrotesk = Space_Grotesk({
+  subsets: ["latin"],
+  variable: "--font-space-grotesk",
+});
+
 const dm_sans = DM_Sans({
   subsets: ["latin"],
   weight: ["400", "600", "700"],
   variable: "--font-dm_sans",
-  display: "swap",
-});
-
-const inter = Inter({
-  subsets: ["latin"],
-  weight: ["400", "500", "600"],
-  variable: "--font-inter",
-  display: "swap",
-});
-
-const poppins = Poppins({
-  subsets: ["latin"],
-  weight: ["400", "600", "700"],
-  variable: "--font-poppins",
   display: "swap",
 });
 
@@ -84,7 +75,10 @@ export default function RootLayout({ children }) {
         <link rel="manifest" href="/site.webmanifest" />
       </head>
       <body
-        className={`${poppins.variable} ${dm_sans.variable} ${inter.variable} relative antialiased`}
+        className={`
+          ${dm_sans.variable} 
+          ${spaceGrotesk.variable} 
+          relative antialiased`}
       >
         <AppWrapper>
           <Header />
