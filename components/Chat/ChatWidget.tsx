@@ -30,7 +30,8 @@ What would you like to know?`,
   const sendMessage = async () => {
     if (!input.trim() || loading) return;
     const userMsg: Message = { role: "user", text: input };
-    setMessages((prev) => [...prev, userMsg]);
+    const updatedMessages = [...messages, userMsg];
+    setMessages(updatedMessages);
     setInput("");
     setLoading(true);
 
@@ -38,7 +39,12 @@ What would you like to know?`,
       const res = await fetch("/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ message: userMsg.text }),
+        body: JSON.stringify({
+          messages: updatedMessages.map((m) => ({
+            role: m.role === "user" ? "user" : "model",
+            text: m.text,
+          })),
+        }),
       });
       const data = await res.json();
       setMessages((prev) => [...prev, { role: "assistant", text: data.reply }]);
@@ -60,7 +66,7 @@ What would you like to know?`,
             initial={{ opacity: 0, y: 20, scale: 0.95 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 20, scale: 0.95 }}
-            className="mb-4 flex h-96 w-96 flex-col overflow-hidden rounded-2xl border border-slate-800 bg-slate-950 shadow-2xl"
+            className="mb-4 flex h-144 w-96 flex-col overflow-hidden rounded-2xl border border-slate-800 bg-slate-950 shadow-2xl"
           >
             <div className="border-b border-slate-800 p-4">
               <h3 className="text-sm font-semibold text-white">
