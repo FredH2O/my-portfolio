@@ -66,7 +66,7 @@ What would you like to know?`,
             initial={{ opacity: 0, y: 20, scale: 0.95 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 20, scale: 0.95 }}
-            className="mb-4 flex h-144 w-96 flex-col overflow-hidden rounded-2xl border border-slate-800 bg-slate-950 shadow-2xl"
+            className="mb-4 flex h-160 w-96 lg:w-120 flex-col overflow-hidden rounded-2xl border border-slate-800 bg-slate-950 shadow-2xl"
           >
             <div className="border-b border-slate-800 p-4">
               <h3 className="text-sm font-semibold text-white">
