@@ -2,7 +2,12 @@
   "about": {
     "name": "Frederico Huertas",
     "title": "Web Developer",
-    "summary": "Career-changing web developer with hands-on experience building React frontends and custom WordPress solutions. After more than a decade in logistics and operations, I transitioned into web development through self-directed learning and volunteer work, contributing to live websites for charities and community organisations. Particularly interested in the intersection of React, WordPress, and headless CMS architecture."
+    "summary": "Career-changing web developer with hands-on experience building React frontends and custom WordPress solutions. After more than a decade in logistics and operations, I transitioned into web development through self-directed learning and volunteer work, contributing to live websites for charities and community organisations. Particularly interested in the intersection of React, WordPress, and headless CMS architecture.",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/fred-huertas/",
+      "github": "https://github.com/FredH2O",
+      "instagram": "https://www.instagram.com/fred_h2o_/"
+    }
   },
   "skills": {
     "frontend": [
