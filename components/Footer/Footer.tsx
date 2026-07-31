@@ -17,7 +17,7 @@ const Footer = () => {
     {
       name: "Instagram",
       icon: <FaInstagram />,
-      href: "https://github.com/FredH2O",
+      href: "https://www.instagram.com/fred_h2o_/",
     },
   ];
 
