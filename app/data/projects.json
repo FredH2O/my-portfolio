@@ -10,7 +10,7 @@
       "WordPress",
       "React",
       "Vite",
-      "Tailwind CSS v4",
+      "Tailwind",
       "ACF (Advanced Custom Fields)",
       "REST API",
       "Application Passwords",
@@ -33,7 +33,7 @@
     "keywords": [
       "React",
       "Vite",
-      "Tailwind CSS",
+      "Tailwind",
       "Framer Motion",
       "Swiper.js",
       "Responsive Design",
@@ -89,7 +89,7 @@
       "Next.js",
       "TypeScript",
       "React",
-      "Tailwind CSS",
+      "Tailwind",
       "Framer Motion",
       "UI/UX Design",
       "Vercel",
@@ -107,10 +107,10 @@
       "CSS",
       "JavaScript",
       "React",
-      "TailwindCSS",
+      "Tailwind",
       "NPM",
       "framer-motion",
-      "NextJS"
+      "Next.js"
     ]
   },
   {
@@ -152,8 +152,8 @@
       "React",
       "Axios",
       "API",
-      "TailwindCSS",
-      "NextJS"
+      "Tailwind",
+      "Next.js"
     ]
   },
   {
@@ -170,7 +170,7 @@
     "details": "Flex Trap Clothing is a bold, fashion-forward e-commerce concept designed to simulate the experience of shopping at a real-world online store.\n\nI built this as a personal design and coding challenge, focusing on layout, structure, and smooth user interaction. From the hero banner to the product highlights, every section was crafted to capture a modern streetwear vibe, complete with bold fonts, clean visuals, and an easy-to-navigate interface.\n\nThis project helped me grasp the fundamentals of e-commerce UI design and improved my understanding of how to balance style with usability. While it doesn’t include advanced features like a cart or authentication, it was an important step in developing a product-first mindset.\n\nBuilt using pure HTML, CSS, and JavaScript, this project pushed the boundaries of what’s possible without frameworks, relying solely on the basics to create a polished experience.",
     "url": "https://fredh2o.github.io/Flex-Trap-Clothing.co/",
     "image": "/projectsImages/flex-trap-clothing.png",
-    "keywords": ["HTML", "CSS", "JavaScript", "TailwindCSS"]
+    "keywords": ["HTML", "CSS", "JavaScript", "Tailwind"]
   },
   {
     "title": "Plant Care",
@@ -185,7 +185,7 @@
       "React",
       "Axios",
       "API",
-      "TailwindCSS"
+      "Tailwind"
     ]
   },
   {
@@ -202,7 +202,7 @@
     "details": "Pence's Bakery is a fully responsive React application crafted to display a tempting array of baked goods. It features interactive elements like item modals, add-to-cart functionality, and detailed views—all presented with a clean and welcoming design.\n\nThe project started as a personal challenge to practice state management and dynamic rendering in React. I used Bootstrap initially, but later added TailwindCSS touches for better styling control and consistency.\n\nWorking on this app sharpened my understanding of component structure, props, and hooks—especially how to manage local state for cart operations and modal visibility.\n\nIt was a fun project that not only tested my frontend skills but also helped me think more like a product designer, balancing visuals with functionality.",
     "url": "https://fredh2o.github.io/Bakery-Shop/",
     "image": "/projectsImages/bakery.png",
-    "keywords": ["HTML", "CSS", "JavaScript", "React", "TailwindCSS"]
+    "keywords": ["HTML", "CSS", "JavaScript", "React", "Tailwind"]
   },
   {
     "title": "Weather App",
@@ -210,7 +210,7 @@
     "details": "This Weather App was one of my first real experiences working with third-party APIs. It fetches real-time weather data from an open API based on user input and displays information like temperature, conditions, and location in a clean UI.\n\nBuilding this helped me understand how to work with asynchronous JavaScript, handle user input dynamically, and parse JSON responses from external services.\n\nI combined TailwindCSS with vanilla JavaScript to create a modern, responsive design with minimal code and clean utility classes. I also experimented with animated weather icons to enhance the visual feedback.\n\nIt may be a common project, but it taught me foundational frontend skills that I still use today—especially how to make apps that feel alive and interactive.",
     "url": "https://fredh2o.github.io/Weather-App/",
     "image": "/projectsImages/weather.png",
-    "keywords": ["HTML", "CSS", "JavaScript", "TailwindCSS", "API"]
+    "keywords": ["HTML", "CSS", "JavaScript", "Tailwind", "API"]
   },
   {
     "title": "Dog Breed Info",
@@ -218,7 +218,7 @@
     "details": "This app generates random dog breeds each time the user interacts with it, displaying details such as breed characteristics, temperament, and images.\n\nThe data is fetched from a public API, ensuring that users receive up-to-date information with each random dog displayed. The app features a clean, responsive design that works seamlessly across both mobile and desktop devices.\n\nSmooth animations enhance the user experience, making the process of discovering new dog breeds both fun and engaging.",
     "url": "https://fredh2o.github.io/Random-Dog-Breed-Info/",
     "image": "/projectsImages/dog-info.png",
-    "keywords": ["HTML", "CSS", "JavaScript", "React", "TailwindCSS", "API"]
+    "keywords": ["HTML", "CSS", "JavaScript", "React", "Tailwind", "API"]
   },
   {
     "title": "Joke-Generator",

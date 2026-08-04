@@ -6,8 +6,12 @@ import { useProject } from "@/app/context/ProjectContext";
 import { motion, AnimatePresence } from "framer-motion";
 import { useRef, useState } from "react";
 
-const ProjectCard = () => {
+const ProjectCard = ({ selectedFilter }) => {
   const { selectProject } = useProject();
+  const filterProjects =
+    selectedFilter === "All"
+      ? projects
+      : projects.filter((project) => project.keywords.includes(selectedFilter));
 
   return (
     <div
@@ -22,7 +26,7 @@ const ProjectCard = () => {
       "
     >
       <AnimatePresence>
-        {projects.map((project, index) => (
+        {filterProjects.map((project, index) => (
           <Card
             key={project.title}
             project={project}

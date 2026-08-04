@@ -1,18 +1,23 @@
+"use client";
+
 import FadeInSection from "@/components/animations/FadeInSection";
 import MainProjectCard from "@/components/Project/MainProjectCard";
-import ProjectCard from "@/components/Project/ProjectCard";
+import ProjectCardContainer from "@/components/Project/ProjectCardsContainer";
 import { ProjectProvider } from "../context/ProjectContext";
+import { useState } from "react";
 
-const techStack = [
+const filters = [
+  "All",
   "React",
+  "JavaScript",
   "Next.js",
   "WordPress",
-  "PHP",
   "Tailwind",
-  "JavaScript",
 ];
 
 const Projects = () => {
+  const [selectedFilter, setSelectedFilter] = useState("All");
+
   return (
     <FadeInSection>
       <section className="relative overflow-hidden py-24">
@@ -47,26 +52,40 @@ const Projects = () => {
           </p>
 
           {/* Tech stack tags */}
-          <div className="mt-10 flex flex-wrap gap-2">
-            {techStack.map((tech) => (
-              <span
-                key={tech}
-                className="
+          <div className="mt-10 flex flex-wrap gap-3 flex-col">
+            <div className="flex items-center gap-3">
+              <span className="h-px w-12 bg-slate-600" />
+              <p className="font-extralight text-xs text-slate-400 uppercase">
+                Quick Filter
+              </p>
+            </div>
+
+            <div className="flex flex-row gap-2 flex-wrap">
+              {filters.map((filter) => (
+                <button
+                  key={filter}
+                  onClick={() => setSelectedFilter(filter)}
+                  className="
                   rounded-full
                   border
+                  cursor-pointer
                   border-slate-700
                   px-3
                   py-1
                   text-xs
                   text-slate-300
-                  transition-colors
                   hover:border-slate-500
                   hover:text-white
+                  hover:bg-blue-500
+                  transition-all
+                  ease-in
+                  duration-150
                 "
-              >
-                {tech}
-              </span>
-            ))}
+                >
+                  {filter}
+                </button>
+              ))}
+            </div>
           </div>
         </div>
 
@@ -82,7 +101,7 @@ const Projects = () => {
               <MainProjectCard />
             </div>
 
-            <ProjectCard />
+            <ProjectCardContainer selectedFilter={selectedFilter} />
           </div>
         </ProjectProvider>
       </section>
