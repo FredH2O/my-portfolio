@@ -25,55 +25,31 @@ export const metadata = {
   description:
     "Explore Frederico's portfolio showcasing frontend development skills, including projects in HTML, CSS, JavaScript, React, Next.js, and more.",
   keywords:
-    "frontend developer, web developer, portfolio, React, Next.js, TailwindCSS, HTML, CSS, web design, frontend specialist",
+    "frontend developer, web developer, portfolio, React, Next.js, TailwindCSS, HTML, CSS, web design, frontend specialist, wordpress, PHP",
   robots: "index, follow",
   metadataBase: new URL("https://fredcodes.com/"),
+  manifest: "/site.webmanifest",
   openGraph: {
     title: "Frederico's Portfolio - Web Developer & Frontend Specialist",
     description:
       "Explore Frederico's portfolio showcasing frontend development skills, including projects in HTML, CSS, JavaScript, React, Next.js, and more.",
     url: "https://fredcodes.com/",
-    image: "/images/logo-full.png",
-    site_name: "Frederico's Portfolio",
+    images: ["/images/logo-full.png"],
+    siteName: "Frederico's Portfolio",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "Frederico's Portfolio - Web Developer & Frontend Specialist",
+    description:
+      "Explore Frederico's portfolio showcasing frontend development skills, including projects in HTML, CSS, JavaScript, React, Next.js, and more.",
+    images: ["/images/logo-full.png"],
   },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-        <link rel="icon" href="/favicon.ico" />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="16x16"
-          href="/favicon-16x16.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="/favicon-32x32.png"
-        />
-        <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href="/apple-touch-icon.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="192x192"
-          href="/android-chrome-192x192.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="512x512"
-          href="/android-chrome-512x512.png"
-        />
-        <link rel="manifest" href="/site.webmanifest" />
-      </head>
       <body
         className={`
           ${dm_sans.variable} 
